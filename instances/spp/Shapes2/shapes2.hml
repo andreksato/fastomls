@@ -1,0 +1,3076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nesting xmlns="http://globalnest.fe.up.pt/nesting">
+    <name>Blaz</name>
+    <author>OLIVEIRA/GOMES/FERREIRA and HOPPER</author>
+    <date>2006/06/13</date>
+    <description>Artificially created data set, based in Blazewicz J., Hawryluk P. and Walkowiak R., 1993, &quot;Using a tabu search approach for solving the two-dimensional irregular cutting problem&quot;, Annals of Operations Research 41, 313-327, coordinates stated in Oliveira J. F., Gomes A. M. and Ferreira S., 2000, &quot;A new constructive algorithm for nesting problems&quot;, OR Spectrum 22 (2), 263-284.</description>
+    <verticesOrientation>clockwise</verticesOrientation>
+    <coordinatesOrigin>up-left</coordinatesOrigin>
+    <problem>
+        <boards>
+            <piece id="board0" quantity="1">
+                <component idPolygon="polygon0" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+        </boards>
+        <lot>
+            <piece id="piece0" quantity="4">
+                <orientation>
+                    <enumeration angle="0"/>
+                </orientation>
+                <component idPolygon="polygon1" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+            <piece id="piece1" quantity="4">
+                <orientation>
+                    <enumeration angle="0"/>
+                    <enumeration angle="180"/>
+                </orientation>
+                <component idPolygon="polygon2" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+            <piece id="piece2" quantity="4">
+                <orientation>
+                    <enumeration angle="0"/>
+                </orientation>
+                <component idPolygon="polygon3" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+            <piece id="piece3" quantity="4">
+                <orientation>
+                    <enumeration angle="0"/>
+                </orientation>
+                <component idPolygon="polygon4" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+            <piece id="piece4" quantity="4">
+                <orientation>
+                    <enumeration angle="0"/>
+                    <enumeration angle="180"/>
+                </orientation>
+                <component idPolygon="polygon5" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+            <piece id="piece5" quantity="4">
+                <orientation>
+                    <enumeration angle="0"/>
+                    <enumeration angle="180"/>
+                </orientation>
+                <component idPolygon="polygon6" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+            <piece id="piece6" quantity="4">
+                <orientation>
+                    <enumeration angle="0"/>
+                </orientation>
+                <component idPolygon="polygon7" type="0" xOffset="0" yOffset="0"/>
+            </piece>
+        </lot>
+    </problem>
+    <polygons>
+        <polygon id="polygon0" nVertices="4">
+            <lines>
+                <segment n="1" x0="0" x1="30" y0="0" y1="0"/>
+                <segment n="2" x0="30" x1="30" y0="0" y1="15"/>
+                <segment n="3" x0="30" x1="0" y0="15" y1="15"/>
+                <segment n="4" x0="0" x1="0" y0="15" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>30</xMax>
+                <yMin>0</yMin>
+                <yMax>15</yMax>
+            </lines>
+        </polygon>
+        <polygon id="polygon1" nVertices="6">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="-1"/>
+                <segment n="2" x0="2" x1="4" y0="-1" y1="0"/>
+                <segment n="3" x0="4" x1="4" y0="0" y1="3"/>
+                <segment n="4" x0="4" x1="2" y0="3" y1="4"/>
+                <segment n="5" x0="2" x1="0" y0="4" y1="3"/>
+                <segment n="6" x0="0" x1="0" y0="3" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>4</xMax>
+                <yMin>-1</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="polygon2" nVertices="8">
+            <lines>
+                <segment n="1" x0="0" x1="3" y0="0" y1="0"/>
+                <segment n="2" x0="3" x1="2" y0="0" y1="2"/>
+                <segment n="3" x0="2" x1="3" y0="2" y1="4"/>
+                <segment n="4" x0="3" x1="3" y0="4" y1="5"/>
+                <segment n="5" x0="3" x1="1" y0="5" y1="5"/>
+                <segment n="6" x0="1" x1="-1" y0="5" y1="3"/>
+                <segment n="7" x0="-1" x1="-1" y0="3" y1="1"/>
+                <segment n="8" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>3</xMax>
+                <yMin>0</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="polygon3" nVertices="8">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="0"/>
+                <segment n="2" x0="2" x1="3" y0="0" y1="1"/>
+                <segment n="3" x0="3" x1="3" y0="1" y1="3"/>
+                <segment n="4" x0="3" x1="2" y0="3" y1="4"/>
+                <segment n="5" x0="2" x1="0" y0="4" y1="4"/>
+                <segment n="6" x0="0" x1="-1" y0="4" y1="3"/>
+                <segment n="7" x0="-1" x1="-1" y0="3" y1="1"/>
+                <segment n="8" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>3</xMax>
+                <yMin>0</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="polygon4" nVertices="3">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="1"/>
+                <segment n="2" x0="2" x1="1" y0="1" y1="3"/>
+                <segment n="3" x0="1" x1="0" y0="3" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>2</xMax>
+                <yMin>0</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="polygon5" nVertices="7">
+            <lines>
+                <segment n="1" x0="0" x1="5" y0="0" y1="0"/>
+                <segment n="2" x0="5" x1="5" y0="0" y1="5"/>
+                <segment n="3" x0="5" x1="4" y0="5" y1="5"/>
+                <segment n="4" x0="4" x1="3" y0="5" y1="3"/>
+                <segment n="5" x0="3" x1="2" y0="3" y1="2"/>
+                <segment n="6" x0="2" x1="0" y0="2" y1="1"/>
+                <segment n="7" x0="0" x1="0" y0="1" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>5</xMax>
+                <yMin>0</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="polygon6" nVertices="3">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="3"/>
+                <segment n="2" x0="2" x1="-2" y0="3" y1="3"/>
+                <segment n="3" x0="-2" x1="0" y0="3" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>2</xMax>
+                <yMin>0</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="polygon7" nVertices="4">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="0"/>
+                <segment n="2" x0="2" x1="2" y0="0" y1="2"/>
+                <segment n="3" x0="2" x1="0" y0="2" y1="2"/>
+                <segment n="4" x0="0" x1="0" y0="2" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>2</xMax>
+                <yMin>0</yMin>
+                <yMax>2</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon0" nVertices="6">
+            <lines>
+                <segment n="1" x0="-4" x1="0" y0="-3" y1="-5"/>
+                <segment n="2" x0="0" x1="4" y0="-5" y1="-3"/>
+                <segment n="3" x0="4" x1="4" y0="-3" y1="3"/>
+                <segment n="4" x0="4" x1="0" y0="3" y1="5"/>
+                <segment n="5" x0="0" x1="-4" y0="5" y1="3"/>
+                <segment n="6" x0="-4" x1="-4" y0="3" y1="-3"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon1" nVertices="13">
+            <lines>
+                <segment n="1" x0="4" x1="2" y0="3" y1="4"/>
+                <segment n="2" x0="2" x1="-1" y0="4" y1="4"/>
+                <segment n="3" x0="-1" x1="-3" y0="4" y1="3"/>
+                <segment n="4" x0="-3" x1="-3" y0="3" y1="0"/>
+                <segment n="5" x0="-3" x1="-2.75" y0="0" y1="-0.5"/>
+                <segment n="6" x0="-2.75" x1="-3" y0="-0.5" y1="-1"/>
+                <segment n="7" x0="-3" x1="-3" y0="-1" y1="-5"/>
+                <segment n="8" x0="-3" x1="-1" y0="-5" y1="-6"/>
+                <segment n="9" x0="-1" x1="1" y0="-6" y1="-6"/>
+                <segment n="10" x0="1" x1="3" y0="-6" y1="-5"/>
+                <segment n="11" x0="3" x1="5" y0="-5" y1="-3"/>
+                <segment n="12" x0="5" x1="5" y0="-3" y1="2"/>
+                <segment n="13" x0="5" x1="4" y0="2" y1="3"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>-6</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon2" nVertices="13">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="-1"/>
+                <segment n="2" x0="2" x1="5" y0="-1" y1="-1"/>
+                <segment n="3" x0="5" x1="7" y0="-1" y1="0"/>
+                <segment n="4" x0="7" x1="7" y0="0" y1="3"/>
+                <segment n="5" x0="7" x1="6.75" y0="3" y1="3.5"/>
+                <segment n="6" x0="6.75" x1="7" y0="3.5" y1="4"/>
+                <segment n="7" x0="7" x1="7" y0="4" y1="8"/>
+                <segment n="8" x0="7" x1="5" y0="8" y1="9"/>
+                <segment n="9" x0="5" x1="3" y0="9" y1="9"/>
+                <segment n="10" x0="3" x1="1" y0="9" y1="8"/>
+                <segment n="11" x0="1" x1="-1" y0="8" y1="6"/>
+                <segment n="12" x0="-1" x1="-1" y0="6" y1="1"/>
+                <segment n="13" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>7</xMax>
+                <yMin>-1</yMin>
+                <yMax>9</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon3" nVertices="12">
+            <lines>
+                <segment n="1" x0="-2" x1="0" y0="-4" y1="-5"/>
+                <segment n="2" x0="0" x1="2" y0="-5" y1="-5"/>
+                <segment n="3" x0="2" x1="4" y0="-5" y1="-4"/>
+                <segment n="4" x0="4" x1="5" y0="-4" y1="-3"/>
+                <segment n="5" x0="5" x1="5" y0="-3" y1="2"/>
+                <segment n="6" x0="5" x1="4" y0="2" y1="3"/>
+                <segment n="7" x0="4" x1="2" y0="3" y1="4"/>
+                <segment n="8" x0="2" x1="0" y0="4" y1="4"/>
+                <segment n="9" x0="0" x1="-2" y0="4" y1="3"/>
+                <segment n="10" x0="-2" x1="-3" y0="3" y1="2"/>
+                <segment n="11" x0="-3" x1="-3" y0="2" y1="-3"/>
+                <segment n="12" x0="-3" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>-5</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon4" nVertices="8">
+            <lines>
+                <segment n="1" x0="-1" x1="1" y0="-3" y1="-4"/>
+                <segment n="2" x0="1" x1="3" y0="-4" y1="-3"/>
+                <segment n="3" x0="3" x1="4" y0="-3" y1="0"/>
+                <segment n="4" x0="4" x1="4" y0="0" y1="3"/>
+                <segment n="5" x0="4" x1="2" y0="3" y1="4"/>
+                <segment n="6" x0="2" x1="-2" y0="4" y1="2"/>
+                <segment n="7" x0="-2" x1="-2" y0="2" y1="-1"/>
+                <segment n="8" x0="-2" x1="-1" y0="-1" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>4</xMax>
+                <yMin>-4</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon5" nVertices="11">
+            <lines>
+                <segment n="1" x0="2" x1="4" y0="-2" y1="-1"/>
+                <segment n="2" x0="4" x1="4" y0="-1" y1="3"/>
+                <segment n="3" x0="4" x1="2" y0="3" y1="4"/>
+                <segment n="4" x0="2" x1="-3" y0="4" y1="4"/>
+                <segment n="5" x0="-3" x1="-5" y0="4" y1="3"/>
+                <segment n="6" x0="-5" x1="-5" y0="3" y1="-5"/>
+                <segment n="7" x0="-5" x1="-3" y0="-5" y1="-6"/>
+                <segment n="8" x0="-3" x1="-2" y0="-6" y1="-6"/>
+                <segment n="9" x0="-2" x1="0" y0="-6" y1="-5"/>
+                <segment n="10" x0="0" x1="1" y0="-5" y1="-3"/>
+                <segment n="11" x0="1" x1="2" y0="-3" y1="-2"/>
+                <xMin>-5</xMin>
+                <xMax>4</xMax>
+                <yMin>-6</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon6" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="-1"/>
+                <segment n="2" x0="2" x1="7" y0="-1" y1="-1"/>
+                <segment n="3" x0="7" x1="9" y0="-1" y1="0"/>
+                <segment n="4" x0="9" x1="9" y0="0" y1="8"/>
+                <segment n="5" x0="9" x1="7" y0="8" y1="9"/>
+                <segment n="6" x0="7" x1="6" y0="9" y1="9"/>
+                <segment n="7" x0="6" x1="4" y0="9" y1="8"/>
+                <segment n="8" x0="4" x1="3" y0="8" y1="6"/>
+                <segment n="9" x0="3" x1="2" y0="6" y1="5"/>
+                <segment n="10" x0="2" x1="0" y0="5" y1="4"/>
+                <segment n="11" x0="0" x1="0" y0="4" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>9</xMax>
+                <yMin>-1</yMin>
+                <yMax>9</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon7" nVertices="9">
+            <lines>
+                <segment n="1" x0="-2" x1="0" y0="-3" y1="-4"/>
+                <segment n="2" x0="0" x1="4" y0="-4" y1="-4"/>
+                <segment n="3" x0="4" x1="6" y0="-4" y1="-3"/>
+                <segment n="4" x0="6" x1="6" y0="-3" y1="0"/>
+                <segment n="5" x0="6" x1="4" y0="0" y1="3"/>
+                <segment n="6" x0="4" x1="2" y0="3" y1="4"/>
+                <segment n="7" x0="2" x1="0" y0="4" y1="3"/>
+                <segment n="8" x0="0" x1="-2" y0="3" y1="0"/>
+                <segment n="9" x0="-2" x1="-2" y0="0" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>6</xMax>
+                <yMin>-4</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon8" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="-1"/>
+                <segment n="2" x0="2" x1="4" y0="-1" y1="0"/>
+                <segment n="3" x0="4" x1="6" y0="0" y1="3"/>
+                <segment n="4" x0="6" x1="6" y0="3" y1="6"/>
+                <segment n="5" x0="6" x1="4" y0="6" y1="7"/>
+                <segment n="6" x0="4" x1="0" y0="7" y1="7"/>
+                <segment n="7" x0="0" x1="-2" y0="7" y1="6"/>
+                <segment n="8" x0="-2" x1="-2" y0="6" y1="3"/>
+                <segment n="9" x0="-2" x1="0" y0="3" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>6</xMax>
+                <yMin>-1</yMin>
+                <yMax>7</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon9" nVertices="8">
+            <lines>
+                <segment n="1" x0="-2" x1="0" y0="-2" y1="-3"/>
+                <segment n="2" x0="0" x1="2" y0="-3" y1="-3"/>
+                <segment n="3" x0="2" x1="4" y0="-3" y1="-2"/>
+                <segment n="4" x0="4" x1="4" y0="-2" y1="3"/>
+                <segment n="5" x0="4" x1="2" y0="3" y1="4"/>
+                <segment n="6" x0="2" x1="0" y0="4" y1="4"/>
+                <segment n="7" x0="0" x1="-2" y0="4" y1="3"/>
+                <segment n="8" x0="-2" x1="-2" y0="3" y1="-2"/>
+                <xMin>-2</xMin>
+                <xMax>4</xMax>
+                <yMin>-3</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon10" nVertices="13">
+            <lines>
+                <segment n="1" x0="-2" x1="1" y0="-4" y1="-4"/>
+                <segment n="2" x0="1" x1="3" y0="-4" y1="-3"/>
+                <segment n="3" x0="3" x1="3" y0="-3" y1="0"/>
+                <segment n="4" x0="3" x1="2.75" y0="0" y1="0.5"/>
+                <segment n="5" x0="2.75" x1="3" y0="0.5" y1="1"/>
+                <segment n="6" x0="3" x1="3" y0="1" y1="5"/>
+                <segment n="7" x0="3" x1="1" y0="5" y1="6"/>
+                <segment n="8" x0="1" x1="-1" y0="6" y1="6"/>
+                <segment n="9" x0="-1" x1="-3" y0="6" y1="5"/>
+                <segment n="10" x0="-3" x1="-5" y0="5" y1="3"/>
+                <segment n="11" x0="-5" x1="-5" y0="3" y1="-2"/>
+                <segment n="12" x0="-5" x1="-4" y0="-2" y1="-3"/>
+                <segment n="13" x0="-4" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-4</yMin>
+                <yMax>6</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon11" nVertices="14">
+            <lines>
+                <segment n="1" x0="3" x1="-2" y0="5" y1="5"/>
+                <segment n="2" x0="-2" x1="-4" y0="5" y1="3"/>
+                <segment n="3" x0="-4" x1="-4" y0="3" y1="1"/>
+                <segment n="4" x0="-4" x1="-3.5" y0="1" y1="0"/>
+                <segment n="5" x0="-3.5" x1="-4" y0="0" y1="-1"/>
+                <segment n="6" x0="-4" x1="-4" y0="-1" y1="-4"/>
+                <segment n="7" x0="-4" x1="-3" y0="-4" y1="-5"/>
+                <segment n="8" x0="-3" x1="2" y0="-5" y1="-5"/>
+                <segment n="9" x0="2" x1="4" y0="-5" y1="-3"/>
+                <segment n="10" x0="4" x1="4" y0="-3" y1="-1"/>
+                <segment n="11" x0="4" x1="3.5" y0="-1" y1="0"/>
+                <segment n="12" x0="3.5" x1="4" y0="0" y1="1"/>
+                <segment n="13" x0="4" x1="4" y0="1" y1="4"/>
+                <segment n="14" x0="4" x1="3" y0="4" y1="5"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon12" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="6" y0="0" y1="0"/>
+                <segment n="2" x0="6" x1="5" y0="0" y1="2"/>
+                <segment n="3" x0="5" x1="6" y0="2" y1="4"/>
+                <segment n="4" x0="6" x1="6" y0="4" y1="5"/>
+                <segment n="5" x0="6" x1="5.25" y0="5" y1="6.5"/>
+                <segment n="6" x0="5.25" x1="6" y0="6.5" y1="8"/>
+                <segment n="7" x0="6" x1="6" y0="8" y1="10"/>
+                <segment n="8" x0="6" x1="2" y0="10" y1="10"/>
+                <segment n="9" x0="2" x1="-2" y0="10" y1="6"/>
+                <segment n="10" x0="-2" x1="-2" y0="6" y1="2"/>
+                <segment n="11" x0="-2" x1="0" y0="2" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>6</xMax>
+                <yMin>0</yMin>
+                <yMax>10</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon13" nVertices="11">
+            <lines>
+                <segment n="1" x0="-2" x1="3" y0="-4" y1="-4"/>
+                <segment n="2" x0="3" x1="4" y0="-4" y1="-3"/>
+                <segment n="3" x0="4" x1="4" y0="-3" y1="-1"/>
+                <segment n="4" x0="4" x1="3.5" y0="-1" y1="0"/>
+                <segment n="5" x0="3.5" x1="4" y0="0" y1="1"/>
+                <segment n="6" x0="4" x1="4" y0="1" y1="4"/>
+                <segment n="7" x0="4" x1="3" y0="4" y1="5"/>
+                <segment n="8" x0="3" x1="-1" y0="5" y1="5"/>
+                <segment n="9" x0="-1" x1="-4" y0="5" y1="2"/>
+                <segment n="10" x0="-4" x1="-4" y0="2" y1="-2"/>
+                <segment n="11" x0="-4" x1="-2" y0="-2" y1="-4"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-4</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon14" nVertices="11">
+            <lines>
+                <segment n="1" x0="-1" x1="2" y0="-3" y1="-3"/>
+                <segment n="2" x0="2" x1="3" y0="-3" y1="0"/>
+                <segment n="3" x0="3" x1="2.2" y0="0" y1="1.6"/>
+                <segment n="4" x0="2.2" x1="3" y0="1.6" y1="4"/>
+                <segment n="5" x0="3" x1="3" y0="4" y1="5"/>
+                <segment n="6" x0="3" x1="1" y0="5" y1="5"/>
+                <segment n="7" x0="1" x1="-1" y0="5" y1="4"/>
+                <segment n="8" x0="-1" x1="-3" y0="4" y1="2"/>
+                <segment n="9" x0="-3" x1="-3" y0="2" y1="0"/>
+                <segment n="10" x0="-3" x1="-2" y0="0" y1="-2"/>
+                <segment n="11" x0="-2" x1="-1" y0="-2" y1="-3"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-3</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon15" nVertices="12">
+            <lines>
+                <segment n="1" x0="1" x1="3" y0="-2" y1="-1"/>
+                <segment n="2" x0="3" x1="3" y0="-1" y1="0"/>
+                <segment n="3" x0="3" x1="2.25" y0="0" y1="1.5"/>
+                <segment n="4" x0="2.25" x1="3" y0="1.5" y1="3"/>
+                <segment n="5" x0="3" x1="3" y0="3" y1="5"/>
+                <segment n="6" x0="3" x1="-4" y0="5" y1="5"/>
+                <segment n="7" x0="-4" x1="-6" y0="5" y1="3"/>
+                <segment n="8" x0="-6" x1="-6" y0="3" y1="-4"/>
+                <segment n="9" x0="-6" x1="-5" y0="-4" y1="-5"/>
+                <segment n="10" x0="-5" x1="-1" y0="-5" y1="-5"/>
+                <segment n="11" x0="-1" x1="0" y0="-5" y1="-3"/>
+                <segment n="12" x0="0" x1="1" y0="-3" y1="-2"/>
+                <xMin>-6</xMin>
+                <xMax>3</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon16" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="8" y0="0" y1="0"/>
+                <segment n="2" x0="8" x1="8" y0="0" y1="10"/>
+                <segment n="3" x0="8" x1="5" y0="10" y1="10"/>
+                <segment n="4" x0="5" x1="3" y0="10" y1="8"/>
+                <segment n="5" x0="3" x1="2.333" y0="8" y1="6.667"/>
+                <segment n="6" x0="2.333" x1="1" y0="6.667" y1="6"/>
+                <segment n="7" x0="1" x1="-1" y0="6" y1="4"/>
+                <segment n="8" x0="-1" x1="-1" y0="4" y1="1"/>
+                <segment n="9" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>8</xMax>
+                <yMin>0</yMin>
+                <yMax>10</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon17" nVertices="10">
+            <lines>
+                <segment n="1" x0="-2" x1="5" y0="-3" y1="-3"/>
+                <segment n="2" x0="5" x1="4" y0="-3" y1="-1"/>
+                <segment n="3" x0="4" x1="5" y0="-1" y1="1"/>
+                <segment n="4" x0="5" x1="5" y0="1" y1="2"/>
+                <segment n="5" x0="5" x1="3" y0="2" y1="5"/>
+                <segment n="6" x0="3" x1="1" y0="5" y1="5"/>
+                <segment n="7" x0="1" x1="-1" y0="5" y1="3"/>
+                <segment n="8" x0="-1" x1="-3" y0="3" y1="0"/>
+                <segment n="9" x0="-3" x1="-3" y0="0" y1="-2"/>
+                <segment n="10" x0="-3" x1="-2" y0="-2" y1="-3"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>-3</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon18" nVertices="10">
+            <lines>
+                <segment n="1" x0="0" x1="3" y0="0" y1="0"/>
+                <segment n="2" x0="3" x1="5" y0="0" y1="3"/>
+                <segment n="3" x0="5" x1="4" y0="3" y1="5"/>
+                <segment n="4" x0="4" x1="5" y0="5" y1="7"/>
+                <segment n="5" x0="5" x1="5" y0="7" y1="8"/>
+                <segment n="6" x0="5" x1="-1" y0="8" y1="8"/>
+                <segment n="7" x0="-1" x1="-3" y0="8" y1="6"/>
+                <segment n="8" x0="-3" x1="-3" y0="6" y1="4"/>
+                <segment n="9" x0="-3" x1="-1" y0="4" y1="1"/>
+                <segment n="10" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>0</yMin>
+                <yMax>8</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon19" nVertices="9">
+            <lines>
+                <segment n="1" x0="-2" x1="3" y0="-2" y1="-2"/>
+                <segment n="2" x0="3" x1="3" y0="-2" y1="0"/>
+                <segment n="3" x0="3" x1="2.5" y0="0" y1="1"/>
+                <segment n="4" x0="2.5" x1="3" y0="1" y1="2"/>
+                <segment n="5" x0="3" x1="3" y0="2" y1="5"/>
+                <segment n="6" x0="3" x1="-1" y0="5" y1="5"/>
+                <segment n="7" x0="-1" x1="-3" y0="5" y1="3"/>
+                <segment n="8" x0="-3" x1="-3" y0="3" y1="-1"/>
+                <segment n="9" x0="-3" x1="-2" y0="-1" y1="-2"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-2</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon20" nVertices="13">
+            <lines>
+                <segment n="1" x0="-2" x1="-5" y0="1" y1="1"/>
+                <segment n="2" x0="-5" x1="-7" y0="1" y1="0"/>
+                <segment n="3" x0="-7" x1="-7" y0="0" y1="-3"/>
+                <segment n="4" x0="-7" x1="-6.75" y0="-3" y1="-3.5"/>
+                <segment n="5" x0="-6.75" x1="-7" y0="-3.5" y1="-4"/>
+                <segment n="6" x0="-7" x1="-7" y0="-4" y1="-8"/>
+                <segment n="7" x0="-7" x1="-5" y0="-8" y1="-9"/>
+                <segment n="8" x0="-5" x1="-3" y0="-9" y1="-9"/>
+                <segment n="9" x0="-3" x1="-1" y0="-9" y1="-8"/>
+                <segment n="10" x0="-1" x1="1" y0="-8" y1="-6"/>
+                <segment n="11" x0="1" x1="1" y0="-6" y1="-1"/>
+                <segment n="12" x0="1" x1="0" y0="-1" y1="0"/>
+                <segment n="13" x0="0" x1="-2" y0="0" y1="1"/>
+                <xMin>-7</xMin>
+                <xMax>1</xMax>
+                <yMin>-9</yMin>
+                <yMax>1</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon21" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="-6" y0="0" y1="0"/>
+                <segment n="2" x0="-6" x1="-5" y0="0" y1="-2"/>
+                <segment n="3" x0="-5" x1="-6" y0="-2" y1="-4"/>
+                <segment n="4" x0="-6" x1="-6" y0="-4" y1="-5"/>
+                <segment n="5" x0="-6" x1="-5.25" y0="-5" y1="-6.5"/>
+                <segment n="6" x0="-5.25" x1="-6" y0="-6.5" y1="-8"/>
+                <segment n="7" x0="-6" x1="-6" y0="-8" y1="-10"/>
+                <segment n="8" x0="-6" x1="-2" y0="-10" y1="-10"/>
+                <segment n="9" x0="-2" x1="2" y0="-10" y1="-6"/>
+                <segment n="10" x0="2" x1="2" y0="-6" y1="-2"/>
+                <segment n="11" x0="2" x1="0" y0="-2" y1="0"/>
+                <xMin>-6</xMin>
+                <xMax>2</xMax>
+                <yMin>-10</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon22" nVertices="14">
+            <lines>
+                <segment n="1" x0="-3" x1="2" y0="-5" y1="-5"/>
+                <segment n="2" x0="2" x1="4" y0="-5" y1="-3"/>
+                <segment n="3" x0="4" x1="4" y0="-3" y1="-1"/>
+                <segment n="4" x0="4" x1="3.5" y0="-1" y1="0"/>
+                <segment n="5" x0="3.5" x1="4" y0="0" y1="1"/>
+                <segment n="6" x0="4" x1="4" y0="1" y1="4"/>
+                <segment n="7" x0="4" x1="3" y0="4" y1="5"/>
+                <segment n="8" x0="3" x1="-2" y0="5" y1="5"/>
+                <segment n="9" x0="-2" x1="-4" y0="5" y1="3"/>
+                <segment n="10" x0="-4" x1="-4" y0="3" y1="1"/>
+                <segment n="11" x0="-4" x1="-3.5" y0="1" y1="0"/>
+                <segment n="12" x0="-3.5" x1="-4" y0="0" y1="-1"/>
+                <segment n="13" x0="-4" x1="-4" y0="-1" y1="-4"/>
+                <segment n="14" x0="-4" x1="-3" y0="-4" y1="-5"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon23" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="-5" y0="0" y1="0"/>
+                <segment n="2" x0="-5" x1="-6" y0="0" y1="-1"/>
+                <segment n="3" x0="-6" x1="-6" y0="-1" y1="-3"/>
+                <segment n="4" x0="-6" x1="-5.5" y0="-3" y1="-4"/>
+                <segment n="5" x0="-5.5" x1="-6" y0="-4" y1="-5"/>
+                <segment n="6" x0="-6" x1="-6" y0="-5" y1="-8"/>
+                <segment n="7" x0="-6" x1="-5" y0="-8" y1="-9"/>
+                <segment n="8" x0="-5" x1="-1" y0="-9" y1="-9"/>
+                <segment n="9" x0="-1" x1="2" y0="-9" y1="-6"/>
+                <segment n="10" x0="2" x1="2" y0="-6" y1="-2"/>
+                <segment n="11" x0="2" x1="0" y0="-2" y1="0"/>
+                <xMin>-6</xMin>
+                <xMax>2</xMax>
+                <yMin>-9</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon24" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="-3" y0="0" y1="0"/>
+                <segment n="2" x0="-3" x1="-5" y0="0" y1="-1"/>
+                <segment n="3" x0="-5" x1="-4" y0="-1" y1="-3"/>
+                <segment n="4" x0="-4" x1="-5" y0="-3" y1="-5"/>
+                <segment n="5" x0="-5" x1="-5" y0="-5" y1="-6"/>
+                <segment n="6" x0="-5" x1="-4" y0="-6" y1="-8"/>
+                <segment n="7" x0="-4" x1="-2" y0="-8" y1="-8"/>
+                <segment n="8" x0="-2" x1="0" y0="-8" y1="-6"/>
+                <segment n="9" x0="0" x1="1" y0="-6" y1="-3"/>
+                <segment n="10" x0="1" x1="1" y0="-3" y1="-1"/>
+                <segment n="11" x0="1" x1="0" y0="-1" y1="0"/>
+                <xMin>-5</xMin>
+                <xMax>1</xMax>
+                <yMin>-8</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon25" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="-8" y0="0" y1="0"/>
+                <segment n="2" x0="-8" x1="-8" y0="0" y1="-10"/>
+                <segment n="3" x0="-8" x1="-5" y0="-10" y1="-10"/>
+                <segment n="4" x0="-5" x1="-3" y0="-10" y1="-8"/>
+                <segment n="5" x0="-3" x1="-2.333" y0="-8" y1="-6.667"/>
+                <segment n="6" x0="-2.333" x1="-1" y0="-6.667" y1="-6"/>
+                <segment n="7" x0="-1" x1="1" y0="-6" y1="-4"/>
+                <segment n="8" x0="1" x1="1" y0="-4" y1="-1"/>
+                <segment n="9" x0="1" x1="0" y0="-1" y1="0"/>
+                <xMin>-8</xMin>
+                <xMax>1</xMax>
+                <yMin>-10</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon26" nVertices="12">
+            <lines>
+                <segment n="1" x0="-1" x1="-3" y0="2" y1="1"/>
+                <segment n="2" x0="-3" x1="-3" y0="1" y1="0"/>
+                <segment n="3" x0="-3" x1="-2.25" y0="0" y1="-1.5"/>
+                <segment n="4" x0="-2.25" x1="-3" y0="-1.5" y1="-3"/>
+                <segment n="5" x0="-3" x1="-3" y0="-3" y1="-5"/>
+                <segment n="6" x0="-3" x1="4" y0="-5" y1="-5"/>
+                <segment n="7" x0="4" x1="6" y0="-5" y1="-3"/>
+                <segment n="8" x0="6" x1="6" y0="-3" y1="4"/>
+                <segment n="9" x0="6" x1="5" y0="4" y1="5"/>
+                <segment n="10" x0="5" x1="1" y0="5" y1="5"/>
+                <segment n="11" x0="1" x1="0" y0="5" y1="3"/>
+                <segment n="12" x0="0" x1="-1" y0="3" y1="2"/>
+                <xMin>-3</xMin>
+                <xMax>6</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon27" nVertices="10">
+            <lines>
+                <segment n="1" x0="0" x1="-3" y0="0" y1="0"/>
+                <segment n="2" x0="-3" x1="-5" y0="0" y1="-3"/>
+                <segment n="3" x0="-5" x1="-4" y0="-3" y1="-5"/>
+                <segment n="4" x0="-4" x1="-5" y0="-5" y1="-7"/>
+                <segment n="5" x0="-5" x1="-5" y0="-7" y1="-8"/>
+                <segment n="6" x0="-5" x1="1" y0="-8" y1="-8"/>
+                <segment n="7" x0="1" x1="3" y0="-8" y1="-6"/>
+                <segment n="8" x0="3" x1="3" y0="-6" y1="-4"/>
+                <segment n="9" x0="3" x1="1" y0="-4" y1="-1"/>
+                <segment n="10" x0="1" x1="0" y0="-1" y1="0"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-8</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon28" nVertices="10">
+            <lines>
+                <segment n="1" x0="2" x1="-5" y0="3" y1="3"/>
+                <segment n="2" x0="-5" x1="-4" y0="3" y1="1"/>
+                <segment n="3" x0="-4" x1="-5" y0="1" y1="-1"/>
+                <segment n="4" x0="-5" x1="-5" y0="-1" y1="-2"/>
+                <segment n="5" x0="-5" x1="-3" y0="-2" y1="-5"/>
+                <segment n="6" x0="-3" x1="-1" y0="-5" y1="-5"/>
+                <segment n="7" x0="-1" x1="1" y0="-5" y1="-3"/>
+                <segment n="8" x0="1" x1="3" y0="-3" y1="0"/>
+                <segment n="9" x0="3" x1="3" y0="0" y1="2"/>
+                <segment n="10" x0="3" x1="2" y0="2" y1="3"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-5</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon29" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="-5" y0="0" y1="0"/>
+                <segment n="2" x0="-5" x1="-5" y0="0" y1="-2"/>
+                <segment n="3" x0="-5" x1="-4.5" y0="-2" y1="-3"/>
+                <segment n="4" x0="-4.5" x1="-5" y0="-3" y1="-4"/>
+                <segment n="5" x0="-5" x1="-5" y0="-4" y1="-7"/>
+                <segment n="6" x0="-5" x1="-1" y0="-7" y1="-7"/>
+                <segment n="7" x0="-1" x1="1" y0="-7" y1="-5"/>
+                <segment n="8" x0="1" x1="1" y0="-5" y1="-1"/>
+                <segment n="9" x0="1" x1="0" y0="-1" y1="0"/>
+                <xMin>-5</xMin>
+                <xMax>1</xMax>
+                <yMin>-7</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon30" nVertices="12">
+            <lines>
+                <segment n="1" x0="-2" x1="0" y0="-4" y1="-4"/>
+                <segment n="2" x0="0" x1="2" y0="-4" y1="-3"/>
+                <segment n="3" x0="2" x1="3" y0="-3" y1="-2"/>
+                <segment n="4" x0="3" x1="3" y0="-2" y1="3"/>
+                <segment n="5" x0="3" x1="2" y0="3" y1="4"/>
+                <segment n="6" x0="2" x1="0" y0="4" y1="5"/>
+                <segment n="7" x0="0" x1="-2" y0="5" y1="5"/>
+                <segment n="8" x0="-2" x1="-4" y0="5" y1="4"/>
+                <segment n="9" x0="-4" x1="-5" y0="4" y1="3"/>
+                <segment n="10" x0="-5" x1="-5" y0="3" y1="-2"/>
+                <segment n="11" x0="-5" x1="-4" y0="-2" y1="-3"/>
+                <segment n="12" x0="-4" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-4</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon31" nVertices="11">
+            <lines>
+                <segment n="1" x0="4" x1="2" y0="2" y1="4"/>
+                <segment n="2" x0="2" x1="-3" y0="4" y1="4"/>
+                <segment n="3" x0="-3" x1="-4" y0="4" y1="3"/>
+                <segment n="4" x0="-4" x1="-4" y0="3" y1="1"/>
+                <segment n="5" x0="-4" x1="-3.5" y0="1" y1="0"/>
+                <segment n="6" x0="-3.5" x1="-4" y0="0" y1="-1"/>
+                <segment n="7" x0="-4" x1="-4" y0="-1" y1="-4"/>
+                <segment n="8" x0="-4" x1="-3" y0="-4" y1="-5"/>
+                <segment n="9" x0="-3" x1="1" y0="-5" y1="-5"/>
+                <segment n="10" x0="1" x1="4" y0="-5" y1="-2"/>
+                <segment n="11" x0="4" x1="4" y0="-2" y1="2"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-5</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon32" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="5" y0="0" y1="0"/>
+                <segment n="2" x0="5" x1="6" y0="0" y1="1"/>
+                <segment n="3" x0="6" x1="6" y0="1" y1="3"/>
+                <segment n="4" x0="6" x1="5.5" y0="3" y1="4"/>
+                <segment n="5" x0="5.5" x1="6" y0="4" y1="5"/>
+                <segment n="6" x0="6" x1="6" y0="5" y1="8"/>
+                <segment n="7" x0="6" x1="5" y0="8" y1="9"/>
+                <segment n="8" x0="5" x1="1" y0="9" y1="9"/>
+                <segment n="9" x0="1" x1="-2" y0="9" y1="6"/>
+                <segment n="10" x0="-2" x1="-2" y0="6" y1="2"/>
+                <segment n="11" x0="-2" x1="0" y0="2" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>6</xMax>
+                <yMin>0</yMin>
+                <yMax>9</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon33" nVertices="8">
+            <lines>
+                <segment n="1" x0="-2" x1="2" y0="-4" y1="-4"/>
+                <segment n="2" x0="2" x1="4" y0="-4" y1="-2"/>
+                <segment n="3" x0="4" x1="4" y0="-2" y1="2"/>
+                <segment n="4" x0="4" x1="2" y0="2" y1="4"/>
+                <segment n="5" x0="2" x1="-2" y0="4" y1="4"/>
+                <segment n="6" x0="-2" x1="-4" y0="4" y1="2"/>
+                <segment n="7" x0="-4" x1="-4" y0="2" y1="-2"/>
+                <segment n="8" x0="-4" x1="-2" y0="-2" y1="-4"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-4</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon34" nVertices="11">
+            <lines>
+                <segment n="1" x0="-1" x1="1" y0="-3" y1="-3"/>
+                <segment n="2" x0="1" x1="2" y0="-3" y1="-2"/>
+                <segment n="3" x0="2" x1="3" y0="-2" y1="1"/>
+                <segment n="4" x0="3" x1="3" y0="1" y1="3"/>
+                <segment n="5" x0="3" x1="2" y0="3" y1="4"/>
+                <segment n="6" x0="2" x1="0" y0="4" y1="4"/>
+                <segment n="7" x0="0" x1="-2" y0="4" y1="3"/>
+                <segment n="8" x0="-2" x1="-3" y0="3" y1="2"/>
+                <segment n="9" x0="-3" x1="-3" y0="2" y1="0"/>
+                <segment n="10" x0="-3" x1="-2" y0="0" y1="-2"/>
+                <segment n="11" x0="-2" x1="-1" y0="-2" y1="-3"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-3</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon35" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-2" y1="-1"/>
+                <segment n="2" x0="2" x1="3" y0="-1" y1="0"/>
+                <segment n="3" x0="3" x1="3" y0="0" y1="3"/>
+                <segment n="4" x0="3" x1="2" y0="3" y1="4"/>
+                <segment n="5" x0="2" x1="-5" y0="4" y1="4"/>
+                <segment n="6" x0="-5" x1="-6" y0="4" y1="3"/>
+                <segment n="7" x0="-6" x1="-6" y0="3" y1="-4"/>
+                <segment n="8" x0="-6" x1="-5" y0="-4" y1="-5"/>
+                <segment n="9" x0="-5" x1="-2" y0="-5" y1="-5"/>
+                <segment n="10" x0="-2" x1="-1" y0="-5" y1="-4"/>
+                <segment n="11" x0="-1" x1="0" y0="-4" y1="-2"/>
+                <xMin>-6</xMin>
+                <xMax>3</xMax>
+                <yMin>-5</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon36" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="7" y0="0" y1="0"/>
+                <segment n="2" x0="7" x1="8" y0="0" y1="1"/>
+                <segment n="3" x0="8" x1="8" y0="1" y1="8"/>
+                <segment n="4" x0="8" x1="7" y0="8" y1="9"/>
+                <segment n="5" x0="7" x1="4" y0="9" y1="9"/>
+                <segment n="6" x0="4" x1="3" y0="9" y1="8"/>
+                <segment n="7" x0="3" x1="2" y0="8" y1="6"/>
+                <segment n="8" x0="2" x1="0" y0="6" y1="5"/>
+                <segment n="9" x0="0" x1="-1" y0="5" y1="4"/>
+                <segment n="10" x0="-1" x1="-1" y0="4" y1="1"/>
+                <segment n="11" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>8</xMax>
+                <yMin>0</yMin>
+                <yMax>9</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon37" nVertices="10">
+            <lines>
+                <segment n="1" x0="-2" x1="4" y0="-3" y1="-3"/>
+                <segment n="2" x0="4" x1="5" y0="-3" y1="-2"/>
+                <segment n="3" x0="5" x1="5" y0="-2" y1="0"/>
+                <segment n="4" x0="5" x1="3" y0="0" y1="3"/>
+                <segment n="5" x0="3" x1="2" y0="3" y1="4"/>
+                <segment n="6" x0="2" x1="0" y0="4" y1="4"/>
+                <segment n="7" x0="0" x1="-1" y0="4" y1="3"/>
+                <segment n="8" x0="-1" x1="-3" y0="3" y1="0"/>
+                <segment n="9" x0="-3" x1="-3" y0="0" y1="-2"/>
+                <segment n="10" x0="-3" x1="-2" y0="-2" y1="-3"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>-3</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon38" nVertices="10">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="0"/>
+                <segment n="2" x0="2" x1="3" y0="0" y1="1"/>
+                <segment n="3" x0="3" x1="5" y0="1" y1="4"/>
+                <segment n="4" x0="5" x1="5" y0="4" y1="6"/>
+                <segment n="5" x0="5" x1="4" y0="6" y1="7"/>
+                <segment n="6" x0="4" x1="-2" y0="7" y1="7"/>
+                <segment n="7" x0="-2" x1="-3" y0="7" y1="6"/>
+                <segment n="8" x0="-3" x1="-3" y0="6" y1="4"/>
+                <segment n="9" x0="-3" x1="-1" y0="4" y1="1"/>
+                <segment n="10" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>0</yMin>
+                <yMax>7</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon39" nVertices="8">
+            <lines>
+                <segment n="1" x0="-2" x1="2" y0="-2" y1="-2"/>
+                <segment n="2" x0="2" x1="3" y0="-2" y1="-1"/>
+                <segment n="3" x0="3" x1="3" y0="-1" y1="3"/>
+                <segment n="4" x0="3" x1="2" y0="3" y1="4"/>
+                <segment n="5" x0="2" x1="-2" y0="4" y1="4"/>
+                <segment n="6" x0="-2" x1="-3" y0="4" y1="3"/>
+                <segment n="7" x0="-3" x1="-3" y0="3" y1="-1"/>
+                <segment n="8" x0="-3" x1="-2" y0="-1" y1="-2"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-2</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon40" nVertices="8">
+            <lines>
+                <segment n="1" x0="-2" x1="2" y0="-4" y1="-2"/>
+                <segment n="2" x0="2" x1="2" y0="-2" y1="1"/>
+                <segment n="3" x0="2" x1="1" y0="1" y1="3"/>
+                <segment n="4" x0="1" x1="-1" y0="3" y1="4"/>
+                <segment n="5" x0="-1" x1="-3" y0="4" y1="3"/>
+                <segment n="6" x0="-3" x1="-4" y0="3" y1="0"/>
+                <segment n="7" x0="-4" x1="-4" y0="0" y1="-3"/>
+                <segment n="8" x0="-4" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-4</xMin>
+                <xMax>2</xMax>
+                <yMin>-4</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon41" nVertices="11">
+            <lines>
+                <segment n="1" x0="1" x1="-2" y0="3" y1="3"/>
+                <segment n="2" x0="-2" x1="-3" y0="3" y1="0"/>
+                <segment n="3" x0="-3" x1="-2.2" y0="0" y1="-1.6"/>
+                <segment n="4" x0="-2.2" x1="-3" y0="-1.6" y1="-4"/>
+                <segment n="5" x0="-3" x1="-3" y0="-4" y1="-5"/>
+                <segment n="6" x0="-3" x1="-1" y0="-5" y1="-5"/>
+                <segment n="7" x0="-1" x1="1" y0="-5" y1="-4"/>
+                <segment n="8" x0="1" x1="3" y0="-4" y1="-2"/>
+                <segment n="9" x0="3" x1="3" y0="-2" y1="0"/>
+                <segment n="10" x0="3" x1="2" y0="0" y1="2"/>
+                <segment n="11" x0="2" x1="1" y0="2" y1="3"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-5</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon42" nVertices="11">
+            <lines>
+                <segment n="1" x0="3" x1="5" y0="0" y1="1"/>
+                <segment n="2" x0="5" x1="4" y0="1" y1="3"/>
+                <segment n="3" x0="4" x1="5" y0="3" y1="5"/>
+                <segment n="4" x0="5" x1="5" y0="5" y1="6"/>
+                <segment n="5" x0="5" x1="4" y0="6" y1="8"/>
+                <segment n="6" x0="4" x1="2" y0="8" y1="8"/>
+                <segment n="7" x0="2" x1="0" y0="8" y1="6"/>
+                <segment n="8" x0="0" x1="-1" y0="6" y1="3"/>
+                <segment n="9" x0="-1" x1="-1" y0="3" y1="1"/>
+                <segment n="10" x0="-1" x1="0" y0="1" y1="0"/>
+                <segment n="11" x0="0" x1="3" y0="0" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>5</xMax>
+                <yMin>0</yMin>
+                <yMax>8</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon43" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-4" y1="-3"/>
+                <segment n="2" x0="2" x1="3" y0="-3" y1="-2"/>
+                <segment n="3" x0="3" x1="3" y0="-2" y1="0"/>
+                <segment n="4" x0="3" x1="2" y0="0" y1="2"/>
+                <segment n="5" x0="2" x1="1" y0="2" y1="3"/>
+                <segment n="6" x0="1" x1="-1" y0="3" y1="3"/>
+                <segment n="7" x0="-1" x1="-2" y0="3" y1="2"/>
+                <segment n="8" x0="-2" x1="-3" y0="2" y1="-1"/>
+                <segment n="9" x0="-3" x1="-3" y0="-1" y1="-3"/>
+                <segment n="10" x0="-3" x1="-2" y0="-3" y1="-4"/>
+                <segment n="11" x0="-2" x1="0" y0="-4" y1="-4"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-4</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon44" nVertices="6">
+            <lines>
+                <segment n="1" x0="-1" x1="1" y0="-3" y1="-2"/>
+                <segment n="2" x0="1" x1="2" y0="-2" y1="1"/>
+                <segment n="3" x0="2" x1="1" y0="1" y1="3"/>
+                <segment n="4" x0="1" x1="-1" y0="3" y1="2"/>
+                <segment n="5" x0="-1" x1="-2" y0="2" y1="-1"/>
+                <segment n="6" x0="-2" x1="-1" y0="-1" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>2</xMax>
+                <yMin>-3</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon45" nVertices="10">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-1" y1="0"/>
+                <segment n="2" x0="2" x1="2" y0="0" y1="1"/>
+                <segment n="3" x0="2" x1="1" y0="1" y1="3"/>
+                <segment n="4" x0="1" x1="-4" y0="3" y1="3"/>
+                <segment n="5" x0="-4" x1="-5" y0="3" y1="0"/>
+                <segment n="6" x0="-5" x1="-5" y0="0" y1="-5"/>
+                <segment n="7" x0="-5" x1="-4" y0="-5" y1="-5"/>
+                <segment n="8" x0="-4" x1="-2" y0="-5" y1="-4"/>
+                <segment n="9" x0="-2" x1="-1" y0="-4" y1="-2"/>
+                <segment n="10" x0="-1" x1="0" y0="-2" y1="-1"/>
+                <xMin>-5</xMin>
+                <xMax>2</xMax>
+                <yMin>-5</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon46" nVertices="10">
+            <lines>
+                <segment n="1" x0="5" x1="7" y0="0" y1="1"/>
+                <segment n="2" x0="7" x1="7" y0="1" y1="6"/>
+                <segment n="3" x0="7" x1="6" y0="6" y1="8"/>
+                <segment n="4" x0="6" x1="5" y0="8" y1="8"/>
+                <segment n="5" x0="5" x1="4" y0="8" y1="6"/>
+                <segment n="6" x0="4" x1="3" y0="6" y1="5"/>
+                <segment n="7" x0="3" x1="1" y0="5" y1="4"/>
+                <segment n="8" x0="1" x1="0" y0="4" y1="1"/>
+                <segment n="9" x0="0" x1="0" y0="1" y1="0"/>
+                <segment n="10" x0="0" x1="5" y0="0" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>7</xMax>
+                <yMin>0</yMin>
+                <yMax>8</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon47" nVertices="6">
+            <lines>
+                <segment n="1" x0="2" x1="4" y0="-3" y1="-2"/>
+                <segment n="2" x0="4" x1="3" y0="-2" y1="0"/>
+                <segment n="3" x0="3" x1="1" y0="0" y1="3"/>
+                <segment n="4" x0="1" x1="-1" y0="3" y1="0"/>
+                <segment n="5" x0="-1" x1="-2" y0="0" y1="-3"/>
+                <segment n="6" x0="-2" x1="2" y0="-3" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>4</xMax>
+                <yMin>-3</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon48" nVertices="6">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="1"/>
+                <segment n="2" x0="2" x1="4" y0="1" y1="4"/>
+                <segment n="3" x0="4" x1="3" y0="4" y1="6"/>
+                <segment n="4" x0="3" x1="-1" y0="6" y1="6"/>
+                <segment n="5" x0="-1" x1="-2" y0="6" y1="3"/>
+                <segment n="6" x0="-2" x1="0" y0="3" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>4</xMax>
+                <yMin>0</yMin>
+                <yMax>6</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon49" nVertices="7">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-2" y1="-1"/>
+                <segment n="2" x0="2" x1="2" y0="-1" y1="1"/>
+                <segment n="3" x0="2" x1="1" y0="1" y1="3"/>
+                <segment n="4" x0="1" x1="-1" y0="3" y1="3"/>
+                <segment n="5" x0="-1" x1="-2" y0="3" y1="0"/>
+                <segment n="6" x0="-2" x1="-2" y0="0" y1="-2"/>
+                <segment n="7" x0="-2" x1="0" y0="-2" y1="-2"/>
+                <xMin>-2</xMin>
+                <xMax>2</xMax>
+                <yMin>-2</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon50" nVertices="11">
+            <lines>
+                <segment n="1" x0="-2" x1="3" y0="-4" y1="-4"/>
+                <segment n="2" x0="3" x1="5" y0="-4" y1="-3"/>
+                <segment n="3" x0="5" x1="5" y0="-3" y1="5"/>
+                <segment n="4" x0="5" x1="3" y0="5" y1="6"/>
+                <segment n="5" x0="3" x1="2" y0="6" y1="6"/>
+                <segment n="6" x0="2" x1="0" y0="6" y1="5"/>
+                <segment n="7" x0="0" x1="-1" y0="5" y1="3"/>
+                <segment n="8" x0="-1" x1="-2" y0="3" y1="2"/>
+                <segment n="9" x0="-2" x1="-4" y0="2" y1="1"/>
+                <segment n="10" x0="-4" x1="-4" y0="1" y1="-3"/>
+                <segment n="11" x0="-4" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-4</xMin>
+                <xMax>5</xMax>
+                <yMin>-4</yMin>
+                <yMax>6</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon51" nVertices="12">
+            <lines>
+                <segment n="1" x0="5" x1="1" y0="5" y1="5"/>
+                <segment n="2" x0="1" x1="0" y0="5" y1="3"/>
+                <segment n="3" x0="0" x1="-1" y0="3" y1="2"/>
+                <segment n="4" x0="-1" x1="-3" y0="2" y1="1"/>
+                <segment n="5" x0="-3" x1="-3" y0="1" y1="0"/>
+                <segment n="6" x0="-3" x1="-2.25" y0="0" y1="-1.5"/>
+                <segment n="7" x0="-2.25" x1="-3" y0="-1.5" y1="-3"/>
+                <segment n="8" x0="-3" x1="-3" y0="-3" y1="-5"/>
+                <segment n="9" x0="-3" x1="4" y0="-5" y1="-5"/>
+                <segment n="10" x0="4" x1="6" y0="-5" y1="-3"/>
+                <segment n="11" x0="6" x1="6" y0="-3" y1="4"/>
+                <segment n="12" x0="6" x1="5" y0="4" y1="5"/>
+                <xMin>-3</xMin>
+                <xMax>6</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon52" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="8" y0="0" y1="0"/>
+                <segment n="2" x0="8" x1="8" y0="0" y1="10"/>
+                <segment n="3" x0="8" x1="5" y0="10" y1="10"/>
+                <segment n="4" x0="5" x1="3" y0="10" y1="8"/>
+                <segment n="5" x0="3" x1="2.333" y0="8" y1="6.667"/>
+                <segment n="6" x0="2.333" x1="1" y0="6.667" y1="6"/>
+                <segment n="7" x0="1" x1="-1" y0="6" y1="4"/>
+                <segment n="8" x0="-1" x1="-1" y0="4" y1="1"/>
+                <segment n="9" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>8</xMax>
+                <yMin>0</yMin>
+                <yMax>10</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon53" nVertices="11">
+            <lines>
+                <segment n="1" x0="-2" x1="5" y0="-4" y1="-4"/>
+                <segment n="2" x0="5" x1="6" y0="-4" y1="-3"/>
+                <segment n="3" x0="6" x1="6" y0="-3" y1="4"/>
+                <segment n="4" x0="6" x1="5" y0="4" y1="5"/>
+                <segment n="5" x0="5" x1="2" y0="5" y1="5"/>
+                <segment n="6" x0="2" x1="1" y0="5" y1="4"/>
+                <segment n="7" x0="1" x1="0" y0="4" y1="2"/>
+                <segment n="8" x0="0" x1="-2" y0="2" y1="1"/>
+                <segment n="9" x0="-2" x1="-3" y0="1" y1="0"/>
+                <segment n="10" x0="-3" x1="-3" y0="0" y1="-3"/>
+                <segment n="11" x0="-3" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-3</xMin>
+                <xMax>6</xMax>
+                <yMin>-4</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon54" nVertices="10">
+            <lines>
+                <segment n="1" x0="-1" x1="4" y0="-3" y1="-3"/>
+                <segment n="2" x0="4" x1="5" y0="-3" y1="0"/>
+                <segment n="3" x0="5" x1="5" y0="0" y1="5"/>
+                <segment n="4" x0="5" x1="4" y0="5" y1="5"/>
+                <segment n="5" x0="4" x1="2" y0="5" y1="4"/>
+                <segment n="6" x0="2" x1="1" y0="4" y1="2"/>
+                <segment n="7" x0="1" x1="0" y0="2" y1="1"/>
+                <segment n="8" x0="0" x1="-2" y0="1" y1="0"/>
+                <segment n="9" x0="-2" x1="-2" y0="0" y1="-1"/>
+                <segment n="10" x0="-2" x1="-1" y0="-1" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>5</xMax>
+                <yMin>-3</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon55" nVertices="10">
+            <lines>
+                <segment n="1" x0="3" x1="5" y0="-2" y1="-1"/>
+                <segment n="2" x0="5" x1="5" y0="-1" y1="5"/>
+                <segment n="3" x0="5" x1="-1" y0="5" y1="5"/>
+                <segment n="4" x0="-1" x1="-2" y0="5" y1="3"/>
+                <segment n="5" x0="-2" x1="-3" y0="3" y1="2"/>
+                <segment n="6" x0="-3" x1="-5" y0="2" y1="1"/>
+                <segment n="7" x0="-5" x1="-5" y0="1" y1="-5"/>
+                <segment n="8" x0="-5" x1="1" y0="-5" y1="-5"/>
+                <segment n="9" x0="1" x1="2" y0="-5" y1="-3"/>
+                <segment n="10" x0="2" x1="3" y0="-3" y1="-2"/>
+                <xMin>-5</xMin>
+                <xMax>5</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon56" nVertices="10">
+            <lines>
+                <segment n="1" x0="0" x1="10" y0="0" y1="0"/>
+                <segment n="2" x0="10" x1="10" y0="0" y1="10"/>
+                <segment n="3" x0="10" x1="8" y0="10" y1="10"/>
+                <segment n="4" x0="8" x1="7" y0="10" y1="8"/>
+                <segment n="5" x0="7" x1="6" y0="8" y1="7"/>
+                <segment n="6" x0="6" x1="4" y0="7" y1="6"/>
+                <segment n="7" x0="4" x1="3" y0="6" y1="4"/>
+                <segment n="8" x0="3" x1="2" y0="4" y1="3"/>
+                <segment n="9" x0="2" x1="0" y0="3" y1="2"/>
+                <segment n="10" x0="0" x1="0" y0="2" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>10</xMax>
+                <yMin>0</yMin>
+                <yMax>10</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon57" nVertices="8">
+            <lines>
+                <segment n="1" x0="-2" x1="7" y0="-3" y1="-3"/>
+                <segment n="2" x0="7" x1="7" y0="-3" y1="2"/>
+                <segment n="3" x0="7" x1="5" y0="2" y1="5"/>
+                <segment n="4" x0="5" x1="4" y0="5" y1="5"/>
+                <segment n="5" x0="4" x1="2" y0="5" y1="2"/>
+                <segment n="6" x0="2" x1="0" y0="2" y1="1"/>
+                <segment n="7" x0="0" x1="-2" y0="1" y1="-2"/>
+                <segment n="8" x0="-2" x1="-2" y0="-2" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>7</xMax>
+                <yMin>-3</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon58" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="5" y0="0" y1="0"/>
+                <segment n="2" x0="5" x1="7" y0="0" y1="3"/>
+                <segment n="3" x0="7" x1="7" y0="3" y1="8"/>
+                <segment n="4" x0="7" x1="2" y0="8" y1="8"/>
+                <segment n="5" x0="2" x1="1" y0="8" y1="6"/>
+                <segment n="6" x0="1" x1="0" y0="6" y1="5"/>
+                <segment n="7" x0="0" x1="-2" y0="5" y1="4"/>
+                <segment n="8" x0="-2" x1="-2" y0="4" y1="3"/>
+                <segment n="9" x0="-2" x1="0" y0="3" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>7</xMax>
+                <yMin>0</yMin>
+                <yMax>8</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon59" nVertices="7">
+            <lines>
+                <segment n="1" x0="-2" x1="5" y0="-2" y1="-2"/>
+                <segment n="2" x0="5" x1="5" y0="-2" y1="5"/>
+                <segment n="3" x0="5" x1="2" y0="5" y1="5"/>
+                <segment n="4" x0="2" x1="1" y0="5" y1="3"/>
+                <segment n="5" x0="1" x1="0" y0="3" y1="2"/>
+                <segment n="6" x0="0" x1="-2" y0="2" y1="1"/>
+                <segment n="7" x0="-2" x1="-2" y0="1" y1="-2"/>
+                <xMin>-2</xMin>
+                <xMax>5</xMax>
+                <yMin>-2</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon60" nVertices="11">
+            <lines>
+                <segment n="1" x0="-2" x1="-7" y0="1" y1="1"/>
+                <segment n="2" x0="-7" x1="-9" y0="1" y1="0"/>
+                <segment n="3" x0="-9" x1="-9" y0="0" y1="-8"/>
+                <segment n="4" x0="-9" x1="-7" y0="-8" y1="-9"/>
+                <segment n="5" x0="-7" x1="-6" y0="-9" y1="-9"/>
+                <segment n="6" x0="-6" x1="-4" y0="-9" y1="-8"/>
+                <segment n="7" x0="-4" x1="-3" y0="-8" y1="-6"/>
+                <segment n="8" x0="-3" x1="-2" y0="-6" y1="-5"/>
+                <segment n="9" x0="-2" x1="0" y0="-5" y1="-4"/>
+                <segment n="10" x0="0" x1="0" y0="-4" y1="0"/>
+                <segment n="11" x0="0" x1="-2" y0="0" y1="1"/>
+                <xMin>-9</xMin>
+                <xMax>0</xMax>
+                <yMin>-9</yMin>
+                <yMax>1</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon61" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="-8" y0="0" y1="0"/>
+                <segment n="2" x0="-8" x1="-8" y0="0" y1="-10"/>
+                <segment n="3" x0="-8" x1="-5" y0="-10" y1="-10"/>
+                <segment n="4" x0="-5" x1="-3" y0="-10" y1="-8"/>
+                <segment n="5" x0="-3" x1="-2.333" y0="-8" y1="-6.667"/>
+                <segment n="6" x0="-2.333" x1="-1" y0="-6.667" y1="-6"/>
+                <segment n="7" x0="-1" x1="1" y0="-6" y1="-4"/>
+                <segment n="8" x0="1" x1="1" y0="-4" y1="-1"/>
+                <segment n="9" x0="1" x1="0" y0="-1" y1="0"/>
+                <xMin>-8</xMin>
+                <xMax>1</xMax>
+                <yMin>-10</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon62" nVertices="12">
+            <lines>
+                <segment n="1" x0="-5" x1="-1" y0="-5" y1="-5"/>
+                <segment n="2" x0="-1" x1="0" y0="-5" y1="-3"/>
+                <segment n="3" x0="0" x1="1" y0="-3" y1="-2"/>
+                <segment n="4" x0="1" x1="3" y0="-2" y1="-1"/>
+                <segment n="5" x0="3" x1="3" y0="-1" y1="0"/>
+                <segment n="6" x0="3" x1="2.25" y0="0" y1="1.5"/>
+                <segment n="7" x0="2.25" x1="3" y0="1.5" y1="3"/>
+                <segment n="8" x0="3" x1="3" y0="3" y1="5"/>
+                <segment n="9" x0="3" x1="-4" y0="5" y1="5"/>
+                <segment n="10" x0="-4" x1="-6" y0="5" y1="3"/>
+                <segment n="11" x0="-6" x1="-6" y0="3" y1="-4"/>
+                <segment n="12" x0="-6" x1="-5" y0="-4" y1="-5"/>
+                <xMin>-6</xMin>
+                <xMax>3</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon63" nVertices="11">
+            <lines>
+                <segment n="1" x0="0" x1="-7" y0="0" y1="0"/>
+                <segment n="2" x0="-7" x1="-8" y0="0" y1="-1"/>
+                <segment n="3" x0="-8" x1="-8" y0="-1" y1="-8"/>
+                <segment n="4" x0="-8" x1="-7" y0="-8" y1="-9"/>
+                <segment n="5" x0="-7" x1="-4" y0="-9" y1="-9"/>
+                <segment n="6" x0="-4" x1="-3" y0="-9" y1="-8"/>
+                <segment n="7" x0="-3" x1="-2" y0="-8" y1="-6"/>
+                <segment n="8" x0="-2" x1="0" y0="-6" y1="-5"/>
+                <segment n="9" x0="0" x1="1" y0="-5" y1="-4"/>
+                <segment n="10" x0="1" x1="1" y0="-4" y1="-1"/>
+                <segment n="11" x0="1" x1="0" y0="-1" y1="0"/>
+                <xMin>-8</xMin>
+                <xMax>1</xMax>
+                <yMin>-9</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon64" nVertices="10">
+            <lines>
+                <segment n="1" x0="0" x1="-5" y0="0" y1="0"/>
+                <segment n="2" x0="-5" x1="-7" y0="0" y1="-1"/>
+                <segment n="3" x0="-7" x1="-7" y0="-1" y1="-6"/>
+                <segment n="4" x0="-7" x1="-6" y0="-6" y1="-8"/>
+                <segment n="5" x0="-6" x1="-5" y0="-8" y1="-8"/>
+                <segment n="6" x0="-5" x1="-4" y0="-8" y1="-6"/>
+                <segment n="7" x0="-4" x1="-3" y0="-6" y1="-5"/>
+                <segment n="8" x0="-3" x1="-1" y0="-5" y1="-4"/>
+                <segment n="9" x0="-1" x1="0" y0="-4" y1="-1"/>
+                <segment n="10" x0="0" x1="0" y0="-1" y1="0"/>
+                <xMin>-7</xMin>
+                <xMax>0</xMax>
+                <yMin>-8</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon65" nVertices="10">
+            <lines>
+                <segment n="1" x0="0" x1="-10" y0="0" y1="0"/>
+                <segment n="2" x0="-10" x1="-10" y0="0" y1="-10"/>
+                <segment n="3" x0="-10" x1="-8" y0="-10" y1="-10"/>
+                <segment n="4" x0="-8" x1="-7" y0="-10" y1="-8"/>
+                <segment n="5" x0="-7" x1="-6" y0="-8" y1="-7"/>
+                <segment n="6" x0="-6" x1="-4" y0="-7" y1="-6"/>
+                <segment n="7" x0="-4" x1="-3" y0="-6" y1="-4"/>
+                <segment n="8" x0="-3" x1="-2" y0="-4" y1="-3"/>
+                <segment n="9" x0="-2" x1="0" y0="-3" y1="-2"/>
+                <segment n="10" x0="0" x1="0" y0="-2" y1="0"/>
+                <xMin>-10</xMin>
+                <xMax>0</xMax>
+                <yMin>-10</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon66" nVertices="10">
+            <lines>
+                <segment n="1" x0="-3" x1="-5" y0="2" y1="1"/>
+                <segment n="2" x0="-5" x1="-5" y0="1" y1="-5"/>
+                <segment n="3" x0="-5" x1="1" y0="-5" y1="-5"/>
+                <segment n="4" x0="1" x1="2" y0="-5" y1="-3"/>
+                <segment n="5" x0="2" x1="3" y0="-3" y1="-2"/>
+                <segment n="6" x0="3" x1="5" y0="-2" y1="-1"/>
+                <segment n="7" x0="5" x1="5" y0="-1" y1="5"/>
+                <segment n="8" x0="5" x1="-1" y0="5" y1="5"/>
+                <segment n="9" x0="-1" x1="-2" y0="5" y1="3"/>
+                <segment n="10" x0="-2" x1="-3" y0="3" y1="2"/>
+                <xMin>-5</xMin>
+                <xMax>5</xMax>
+                <yMin>-5</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon67" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="-5" y0="0" y1="0"/>
+                <segment n="2" x0="-5" x1="-7" y0="0" y1="-3"/>
+                <segment n="3" x0="-7" x1="-7" y0="-3" y1="-8"/>
+                <segment n="4" x0="-7" x1="-2" y0="-8" y1="-8"/>
+                <segment n="5" x0="-2" x1="-1" y0="-8" y1="-6"/>
+                <segment n="6" x0="-1" x1="0" y0="-6" y1="-5"/>
+                <segment n="7" x0="0" x1="2" y0="-5" y1="-4"/>
+                <segment n="8" x0="2" x1="2" y0="-4" y1="-3"/>
+                <segment n="9" x0="2" x1="0" y0="-3" y1="0"/>
+                <xMin>-7</xMin>
+                <xMax>2</xMax>
+                <yMin>-8</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon68" nVertices="8">
+            <lines>
+                <segment n="1" x0="2" x1="-7" y0="3" y1="3"/>
+                <segment n="2" x0="-7" x1="-7" y0="3" y1="-2"/>
+                <segment n="3" x0="-7" x1="-5" y0="-2" y1="-5"/>
+                <segment n="4" x0="-5" x1="-4" y0="-5" y1="-5"/>
+                <segment n="5" x0="-4" x1="-2" y0="-5" y1="-2"/>
+                <segment n="6" x0="-2" x1="0" y0="-2" y1="-1"/>
+                <segment n="7" x0="0" x1="2" y0="-1" y1="2"/>
+                <segment n="8" x0="2" x1="2" y0="2" y1="3"/>
+                <xMin>-7</xMin>
+                <xMax>2</xMax>
+                <yMin>-5</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon69" nVertices="7">
+            <lines>
+                <segment n="1" x0="0" x1="-7" y0="0" y1="0"/>
+                <segment n="2" x0="-7" x1="-7" y0="0" y1="-7"/>
+                <segment n="3" x0="-7" x1="-4" y0="-7" y1="-7"/>
+                <segment n="4" x0="-4" x1="-3" y0="-7" y1="-5"/>
+                <segment n="5" x0="-3" x1="-2" y0="-5" y1="-4"/>
+                <segment n="6" x0="-2" x1="0" y0="-4" y1="-3"/>
+                <segment n="7" x0="0" x1="0" y0="-3" y1="0"/>
+                <xMin>-7</xMin>
+                <xMax>0</xMax>
+                <yMin>-7</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon70" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-3" y1="0"/>
+                <segment n="2" x0="2" x1="2" y0="0" y1="3"/>
+                <segment n="3" x0="2" x1="0" y0="3" y1="4"/>
+                <segment n="4" x0="0" x1="-4" y0="4" y1="4"/>
+                <segment n="5" x0="-4" x1="-6" y0="4" y1="3"/>
+                <segment n="6" x0="-6" x1="-6" y0="3" y1="0"/>
+                <segment n="7" x0="-6" x1="-4" y0="0" y1="-3"/>
+                <segment n="8" x0="-4" x1="-2" y0="-3" y1="-4"/>
+                <segment n="9" x0="-2" x1="0" y0="-4" y1="-3"/>
+                <xMin>-6</xMin>
+                <xMax>2</xMax>
+                <yMin>-4</yMin>
+                <yMax>4</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon71" nVertices="10">
+            <lines>
+                <segment n="1" x0="2" x1="-5" y0="3" y1="3"/>
+                <segment n="2" x0="-5" x1="-4" y0="3" y1="1"/>
+                <segment n="3" x0="-4" x1="-5" y0="1" y1="-1"/>
+                <segment n="4" x0="-5" x1="-5" y0="-1" y1="-2"/>
+                <segment n="5" x0="-5" x1="-3" y0="-2" y1="-5"/>
+                <segment n="6" x0="-3" x1="-1" y0="-5" y1="-5"/>
+                <segment n="7" x0="-1" x1="1" y0="-5" y1="-3"/>
+                <segment n="8" x0="1" x1="3" y0="-3" y1="0"/>
+                <segment n="9" x0="3" x1="3" y0="0" y1="2"/>
+                <segment n="10" x0="3" x1="2" y0="2" y1="3"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-5</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon72" nVertices="10">
+            <lines>
+                <segment n="1" x0="3" x1="5" y0="0" y1="3"/>
+                <segment n="2" x0="5" x1="4" y0="3" y1="5"/>
+                <segment n="3" x0="4" x1="5" y0="5" y1="7"/>
+                <segment n="4" x0="5" x1="5" y0="7" y1="8"/>
+                <segment n="5" x0="5" x1="-1" y0="8" y1="8"/>
+                <segment n="6" x0="-1" x1="-3" y0="8" y1="6"/>
+                <segment n="7" x0="-3" x1="-3" y0="6" y1="4"/>
+                <segment n="8" x0="-3" x1="-1" y0="4" y1="1"/>
+                <segment n="9" x0="-1" x1="0" y0="1" y1="0"/>
+                <segment n="10" x0="0" x1="3" y0="0" y1="0"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>0</yMin>
+                <yMax>8</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon73" nVertices="10">
+            <lines>
+                <segment n="1" x0="1" x1="3" y0="-3" y1="0"/>
+                <segment n="2" x0="3" x1="3" y0="0" y1="2"/>
+                <segment n="3" x0="3" x1="2" y0="2" y1="3"/>
+                <segment n="4" x0="2" x1="-4" y0="3" y1="3"/>
+                <segment n="5" x0="-4" x1="-5" y0="3" y1="2"/>
+                <segment n="6" x0="-5" x1="-5" y0="2" y1="0"/>
+                <segment n="7" x0="-5" x1="-3" y0="0" y1="-3"/>
+                <segment n="8" x0="-3" x1="-2" y0="-3" y1="-4"/>
+                <segment n="9" x0="-2" x1="0" y0="-4" y1="-4"/>
+                <segment n="10" x0="0" x1="1" y0="-4" y1="-3"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-4</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon74" nVertices="6">
+            <lines>
+                <segment n="1" x0="-1" x1="1" y0="-3" y1="0"/>
+                <segment n="2" x0="1" x1="2" y0="0" y1="3"/>
+                <segment n="3" x0="2" x1="-2" y0="3" y1="3"/>
+                <segment n="4" x0="-2" x1="-4" y0="3" y1="2"/>
+                <segment n="5" x0="-4" x1="-3" y0="2" y1="0"/>
+                <segment n="6" x0="-3" x1="-1" y0="0" y1="-3"/>
+                <xMin>-4</xMin>
+                <xMax>2</xMax>
+                <yMin>-3</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon75" nVertices="8">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-1" y1="2"/>
+                <segment n="2" x0="2" x1="2" y0="2" y1="3"/>
+                <segment n="3" x0="2" x1="-7" y0="3" y1="3"/>
+                <segment n="4" x0="-7" x1="-7" y0="3" y1="-2"/>
+                <segment n="5" x0="-7" x1="-5" y0="-2" y1="-5"/>
+                <segment n="6" x0="-5" x1="-4" y0="-5" y1="-5"/>
+                <segment n="7" x0="-4" x1="-2" y0="-5" y1="-2"/>
+                <segment n="8" x0="-2" x1="0" y0="-2" y1="-1"/>
+                <xMin>-7</xMin>
+                <xMax>2</xMax>
+                <yMin>-5</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon76" nVertices="9">
+            <lines>
+                <segment n="1" x0="5" x1="7" y0="0" y1="3"/>
+                <segment n="2" x0="7" x1="7" y0="3" y1="8"/>
+                <segment n="3" x0="7" x1="2" y0="8" y1="8"/>
+                <segment n="4" x0="2" x1="1" y0="8" y1="6"/>
+                <segment n="5" x0="1" x1="0" y0="6" y1="5"/>
+                <segment n="6" x0="0" x1="-2" y0="5" y1="4"/>
+                <segment n="7" x0="-2" x1="-2" y0="4" y1="3"/>
+                <segment n="8" x0="-2" x1="0" y0="3" y1="0"/>
+                <segment n="9" x0="0" x1="5" y0="0" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>7</xMax>
+                <yMin>0</yMin>
+                <yMax>8</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon77" nVertices="6">
+            <lines>
+                <segment n="1" x0="2" x1="4" y0="-3" y1="0"/>
+                <segment n="2" x0="4" x1="2" y0="0" y1="3"/>
+                <segment n="3" x0="2" x1="-2" y0="3" y1="3"/>
+                <segment n="4" x0="-2" x1="-4" y0="3" y1="0"/>
+                <segment n="5" x0="-4" x1="-2" y0="0" y1="-3"/>
+                <segment n="6" x0="-2" x1="2" y0="-3" y1="-3"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-3</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon78" nVertices="3">
+            <lines>
+                <segment n="1" x0="0" x1="4" y0="0" y1="6"/>
+                <segment n="2" x0="4" x1="-4" y0="6" y1="6"/>
+                <segment n="3" x0="-4" x1="0" y0="6" y1="0"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>0</yMin>
+                <yMax>6</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon79" nVertices="6">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-2" y1="1"/>
+                <segment n="2" x0="2" x1="2" y0="1" y1="3"/>
+                <segment n="3" x0="2" x1="-4" y0="3" y1="3"/>
+                <segment n="4" x0="-4" x1="-4" y0="3" y1="1"/>
+                <segment n="5" x0="-4" x1="-2" y0="1" y1="-2"/>
+                <segment n="6" x0="-2" x1="0" y0="-2" y1="-2"/>
+                <xMin>-4</xMin>
+                <xMax>2</xMax>
+                <yMin>-2</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon80" nVertices="9">
+            <lines>
+                <segment n="1" x0="-4" x1="-6" y0="0" y1="-3"/>
+                <segment n="2" x0="-6" x1="-6" y0="-3" y1="-6"/>
+                <segment n="3" x0="-6" x1="-4" y0="-6" y1="-7"/>
+                <segment n="4" x0="-4" x1="0" y0="-7" y1="-7"/>
+                <segment n="5" x0="0" x1="2" y0="-7" y1="-6"/>
+                <segment n="6" x0="2" x1="2" y0="-6" y1="-3"/>
+                <segment n="7" x0="2" x1="0" y0="-3" y1="0"/>
+                <segment n="8" x0="0" x1="-2" y0="0" y1="1"/>
+                <segment n="9" x0="-2" x1="-4" y0="1" y1="0"/>
+                <xMin>-6</xMin>
+                <xMax>2</xMax>
+                <yMin>-7</yMin>
+                <yMax>1</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon81" nVertices="10">
+            <lines>
+                <segment n="1" x0="-3" x1="-5" y0="0" y1="-3"/>
+                <segment n="2" x0="-5" x1="-4" y0="-3" y1="-5"/>
+                <segment n="3" x0="-4" x1="-5" y0="-5" y1="-7"/>
+                <segment n="4" x0="-5" x1="-5" y0="-7" y1="-8"/>
+                <segment n="5" x0="-5" x1="1" y0="-8" y1="-8"/>
+                <segment n="6" x0="1" x1="3" y0="-8" y1="-6"/>
+                <segment n="7" x0="3" x1="3" y0="-6" y1="-4"/>
+                <segment n="8" x0="3" x1="1" y0="-4" y1="-1"/>
+                <segment n="9" x0="1" x1="0" y0="-1" y1="0"/>
+                <segment n="10" x0="0" x1="-3" y0="0" y1="0"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-8</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon82" nVertices="10">
+            <lines>
+                <segment n="1" x0="-2" x1="5" y0="-3" y1="-3"/>
+                <segment n="2" x0="5" x1="4" y0="-3" y1="-1"/>
+                <segment n="3" x0="4" x1="5" y0="-1" y1="1"/>
+                <segment n="4" x0="5" x1="5" y0="1" y1="2"/>
+                <segment n="5" x0="5" x1="3" y0="2" y1="5"/>
+                <segment n="6" x0="3" x1="1" y0="5" y1="5"/>
+                <segment n="7" x0="1" x1="-1" y0="5" y1="3"/>
+                <segment n="8" x0="-1" x1="-3" y0="3" y1="0"/>
+                <segment n="9" x0="-3" x1="-3" y0="0" y1="-2"/>
+                <segment n="10" x0="-3" x1="-2" y0="-2" y1="-3"/>
+                <xMin>-3</xMin>
+                <xMax>5</xMax>
+                <yMin>-3</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon83" nVertices="10">
+            <lines>
+                <segment n="1" x0="-3" x1="-5" y0="-1" y1="-4"/>
+                <segment n="2" x0="-5" x1="-5" y0="-4" y1="-6"/>
+                <segment n="3" x0="-5" x1="-4" y0="-6" y1="-7"/>
+                <segment n="4" x0="-4" x1="2" y0="-7" y1="-7"/>
+                <segment n="5" x0="2" x1="3" y0="-7" y1="-6"/>
+                <segment n="6" x0="3" x1="3" y0="-6" y1="-4"/>
+                <segment n="7" x0="3" x1="1" y0="-4" y1="-1"/>
+                <segment n="8" x0="1" x1="0" y0="-1" y1="0"/>
+                <segment n="9" x0="0" x1="-2" y0="0" y1="0"/>
+                <segment n="10" x0="-2" x1="-3" y0="0" y1="-1"/>
+                <xMin>-5</xMin>
+                <xMax>3</xMax>
+                <yMin>-7</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon84" nVertices="6">
+            <lines>
+                <segment n="1" x0="-2" x1="-4" y0="-1" y1="-4"/>
+                <segment n="2" x0="-4" x1="-3" y0="-4" y1="-6"/>
+                <segment n="3" x0="-3" x1="1" y0="-6" y1="-6"/>
+                <segment n="4" x0="1" x1="2" y0="-6" y1="-3"/>
+                <segment n="5" x0="2" x1="0" y0="-3" y1="0"/>
+                <segment n="6" x0="0" x1="-2" y0="0" y1="-1"/>
+                <xMin>-4</xMin>
+                <xMax>2</xMax>
+                <yMin>-6</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon85" nVertices="9">
+            <lines>
+                <segment n="1" x0="-5" x1="-7" y0="0" y1="-3"/>
+                <segment n="2" x0="-7" x1="-7" y0="-3" y1="-8"/>
+                <segment n="3" x0="-7" x1="-2" y0="-8" y1="-8"/>
+                <segment n="4" x0="-2" x1="-1" y0="-8" y1="-6"/>
+                <segment n="5" x0="-1" x1="0" y0="-6" y1="-5"/>
+                <segment n="6" x0="0" x1="2" y0="-5" y1="-4"/>
+                <segment n="7" x0="2" x1="2" y0="-4" y1="-3"/>
+                <segment n="8" x0="2" x1="0" y0="-3" y1="0"/>
+                <segment n="9" x0="0" x1="-5" y0="0" y1="0"/>
+                <xMin>-7</xMin>
+                <xMax>2</xMax>
+                <yMin>-8</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon86" nVertices="8">
+            <lines>
+                <segment n="1" x0="0" x1="-2" y0="1" y1="-2"/>
+                <segment n="2" x0="-2" x1="-2" y0="-2" y1="-3"/>
+                <segment n="3" x0="-2" x1="7" y0="-3" y1="-3"/>
+                <segment n="4" x0="7" x1="7" y0="-3" y1="2"/>
+                <segment n="5" x0="7" x1="5" y0="2" y1="5"/>
+                <segment n="6" x0="5" x1="4" y0="5" y1="5"/>
+                <segment n="7" x0="4" x1="2" y0="5" y1="2"/>
+                <segment n="8" x0="2" x1="0" y0="2" y1="1"/>
+                <xMin>-2</xMin>
+                <xMax>7</xMax>
+                <yMin>-3</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon87" nVertices="3">
+            <lines>
+                <segment n="1" x0="0" x1="-4" y0="0" y1="-6"/>
+                <segment n="2" x0="-4" x1="4" y0="-6" y1="-6"/>
+                <segment n="3" x0="4" x1="0" y0="-6" y1="0"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-6</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon88" nVertices="6">
+            <lines>
+                <segment n="1" x0="-2" x1="-4" y0="3" y1="0"/>
+                <segment n="2" x0="-4" x1="-2" y0="0" y1="-3"/>
+                <segment n="3" x0="-2" x1="2" y0="-3" y1="-3"/>
+                <segment n="4" x0="2" x1="4" y0="-3" y1="0"/>
+                <segment n="5" x0="4" x1="2" y0="0" y1="3"/>
+                <segment n="6" x0="2" x1="-2" y0="3" y1="3"/>
+                <xMin>-4</xMin>
+                <xMax>4</xMax>
+                <yMin>-3</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon89" nVertices="6">
+            <lines>
+                <segment n="1" x0="-2" x1="-4" y0="0" y1="-3"/>
+                <segment n="2" x0="-4" x1="-4" y0="-3" y1="-5"/>
+                <segment n="3" x0="-4" x1="2" y0="-5" y1="-5"/>
+                <segment n="4" x0="2" x1="2" y0="-5" y1="-3"/>
+                <segment n="5" x0="2" x1="0" y0="-3" y1="0"/>
+                <segment n="6" x0="0" x1="-2" y0="0" y1="0"/>
+                <xMin>-4</xMin>
+                <xMax>2</xMax>
+                <yMin>-5</yMin>
+                <yMax>0</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon90" nVertices="8">
+            <lines>
+                <segment n="1" x0="-2" x1="0" y0="-4" y1="-4"/>
+                <segment n="2" x0="0" x1="2" y0="-4" y1="-3"/>
+                <segment n="3" x0="2" x1="2" y0="-3" y1="2"/>
+                <segment n="4" x0="2" x1="0" y0="2" y1="3"/>
+                <segment n="5" x0="0" x1="-2" y0="3" y1="3"/>
+                <segment n="6" x0="-2" x1="-4" y0="3" y1="2"/>
+                <segment n="7" x0="-4" x1="-4" y0="2" y1="-3"/>
+                <segment n="8" x0="-4" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-4</xMin>
+                <xMax>2</xMax>
+                <yMin>-4</yMin>
+                <yMax>3</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon91" nVertices="9">
+            <lines>
+                <segment n="1" x0="2" x1="-3" y0="2" y1="2"/>
+                <segment n="2" x0="-3" x1="-3" y0="2" y1="0"/>
+                <segment n="3" x0="-3" x1="-2.5" y0="0" y1="-1"/>
+                <segment n="4" x0="-2.5" x1="-3" y0="-1" y1="-2"/>
+                <segment n="5" x0="-3" x1="-3" y0="-2" y1="-5"/>
+                <segment n="6" x0="-3" x1="1" y0="-5" y1="-5"/>
+                <segment n="7" x0="1" x1="3" y0="-5" y1="-3"/>
+                <segment n="8" x0="3" x1="3" y0="-3" y1="1"/>
+                <segment n="9" x0="3" x1="2" y0="1" y1="2"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-5</yMin>
+                <yMax>2</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon92" nVertices="9">
+            <lines>
+                <segment n="1" x0="0" x1="5" y0="0" y1="0"/>
+                <segment n="2" x0="5" x1="5" y0="0" y1="2"/>
+                <segment n="3" x0="5" x1="4.5" y0="2" y1="3"/>
+                <segment n="4" x0="4.5" x1="5" y0="3" y1="4"/>
+                <segment n="5" x0="5" x1="5" y0="4" y1="7"/>
+                <segment n="6" x0="5" x1="1" y0="7" y1="7"/>
+                <segment n="7" x0="1" x1="-1" y0="7" y1="5"/>
+                <segment n="8" x0="-1" x1="-1" y0="5" y1="1"/>
+                <segment n="9" x0="-1" x1="0" y0="1" y1="0"/>
+                <xMin>-1</xMin>
+                <xMax>5</xMax>
+                <yMin>0</yMin>
+                <yMax>7</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon93" nVertices="8">
+            <lines>
+                <segment n="1" x0="-2" x1="2" y0="-4" y1="-4"/>
+                <segment n="2" x0="2" x1="3" y0="-4" y1="-3"/>
+                <segment n="3" x0="3" x1="3" y0="-3" y1="1"/>
+                <segment n="4" x0="3" x1="2" y0="1" y1="2"/>
+                <segment n="5" x0="2" x1="-2" y0="2" y1="2"/>
+                <segment n="6" x0="-2" x1="-3" y0="2" y1="1"/>
+                <segment n="7" x0="-3" x1="-3" y0="1" y1="-3"/>
+                <segment n="8" x0="-3" x1="-2" y0="-3" y1="-4"/>
+                <xMin>-3</xMin>
+                <xMax>3</xMax>
+                <yMin>-4</yMin>
+                <yMax>2</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon94" nVertices="7">
+            <lines>
+                <segment n="1" x0="-1" x1="1" y0="-3" y1="-3"/>
+                <segment n="2" x0="1" x1="2" y0="-3" y1="0"/>
+                <segment n="3" x0="2" x1="2" y0="0" y1="2"/>
+                <segment n="4" x0="2" x1="0" y0="2" y1="2"/>
+                <segment n="5" x0="0" x1="-2" y0="2" y1="1"/>
+                <segment n="6" x0="-2" x1="-2" y0="1" y1="-1"/>
+                <segment n="7" x0="-2" x1="-1" y0="-1" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>2</xMax>
+                <yMin>-3</yMin>
+                <yMax>2</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon95" nVertices="7">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="-2" y1="-1"/>
+                <segment n="2" x0="2" x1="2" y0="-1" y1="2"/>
+                <segment n="3" x0="2" x1="-5" y0="2" y1="2"/>
+                <segment n="4" x0="-5" x1="-5" y0="2" y1="-5"/>
+                <segment n="5" x0="-5" x1="-2" y0="-5" y1="-5"/>
+                <segment n="6" x0="-2" x1="-1" y0="-5" y1="-3"/>
+                <segment n="7" x0="-1" x1="0" y0="-3" y1="-2"/>
+                <xMin>-5</xMin>
+                <xMax>2</xMax>
+                <yMin>-5</yMin>
+                <yMax>2</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon96" nVertices="7">
+            <lines>
+                <segment n="1" x0="0" x1="7" y0="0" y1="0"/>
+                <segment n="2" x0="7" x1="7" y0="0" y1="7"/>
+                <segment n="3" x0="7" x1="4" y0="7" y1="7"/>
+                <segment n="4" x0="4" x1="3" y0="7" y1="5"/>
+                <segment n="5" x0="3" x1="2" y0="5" y1="4"/>
+                <segment n="6" x0="2" x1="0" y0="4" y1="3"/>
+                <segment n="7" x0="0" x1="0" y0="3" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>7</xMax>
+                <yMin>0</yMin>
+                <yMax>7</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon97" nVertices="6">
+            <lines>
+                <segment n="1" x0="-2" x1="4" y0="-3" y1="-3"/>
+                <segment n="2" x0="4" x1="4" y0="-3" y1="-1"/>
+                <segment n="3" x0="4" x1="2" y0="-1" y1="2"/>
+                <segment n="4" x0="2" x1="0" y0="2" y1="2"/>
+                <segment n="5" x0="0" x1="-2" y0="2" y1="-1"/>
+                <segment n="6" x0="-2" x1="-2" y0="-1" y1="-3"/>
+                <xMin>-2</xMin>
+                <xMax>4</xMax>
+                <yMin>-3</yMin>
+                <yMax>2</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon98" nVertices="6">
+            <lines>
+                <segment n="1" x0="0" x1="2" y0="0" y1="0"/>
+                <segment n="2" x0="2" x1="4" y0="0" y1="3"/>
+                <segment n="3" x0="4" x1="4" y0="3" y1="5"/>
+                <segment n="4" x0="4" x1="-2" y0="5" y1="5"/>
+                <segment n="5" x0="-2" x1="-2" y0="5" y1="3"/>
+                <segment n="6" x0="-2" x1="0" y0="3" y1="0"/>
+                <xMin>-2</xMin>
+                <xMax>4</xMax>
+                <yMin>0</yMin>
+                <yMax>5</yMax>
+            </lines>
+        </polygon>
+        <polygon id="nfpPolygon99" nVertices="4">
+            <lines>
+                <segment n="1" x0="-2" x1="2" y0="-2" y1="-2"/>
+                <segment n="2" x0="2" x1="2" y0="-2" y1="2"/>
+                <segment n="3" x0="2" x1="-2" y0="2" y1="2"/>
+                <segment n="4" x0="-2" x1="-2" y0="2" y1="-2"/>
+                <xMin>-2</xMin>
+                <xMax>2</xMax>
+                <yMin>-2</yMin>
+                <yMax>2</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon0" nVertices="4">
+            <lines>
+                <segment n="1" x0="0" x1="26" y0="1" y1="1"/>
+                <segment n="2" x0="26" x1="26" y0="1" y1="11"/>
+                <segment n="3" x0="26" x1="0" y0="11" y1="11"/>
+                <segment n="4" x0="0" x1="0" y0="11" y1="1"/>
+                <xMin>0</xMin>
+                <xMax>26</xMax>
+                <yMin>1</yMin>
+                <yMax>11</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon1" nVertices="4">
+            <lines>
+                <segment n="1" x0="1" x1="27" y0="0" y1="0"/>
+                <segment n="2" x0="27" x1="27" y0="0" y1="10"/>
+                <segment n="3" x0="27" x1="1" y0="10" y1="10"/>
+                <segment n="4" x0="1" x1="1" y0="10" y1="0"/>
+                <xMin>1</xMin>
+                <xMax>27</xMax>
+                <yMin>0</yMin>
+                <yMax>10</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon2" nVertices="4">
+            <lines>
+                <segment n="1" x0="3" x1="29" y0="5" y1="5"/>
+                <segment n="2" x0="29" x1="29" y0="5" y1="15"/>
+                <segment n="3" x0="29" x1="3" y0="15" y1="15"/>
+                <segment n="4" x0="3" x1="3" y0="15" y1="5"/>
+                <xMin>3</xMin>
+                <xMax>29</xMax>
+                <yMin>5</yMin>
+                <yMax>15</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon3" nVertices="4">
+            <lines>
+                <segment n="1" x0="1" x1="27" y0="0" y1="0"/>
+                <segment n="2" x0="27" x1="27" y0="0" y1="11"/>
+                <segment n="3" x0="27" x1="1" y0="11" y1="11"/>
+                <segment n="4" x0="1" x1="1" y0="11" y1="0"/>
+                <xMin>1</xMin>
+                <xMax>27</xMax>
+                <yMin>0</yMin>
+                <yMax>11</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon4" nVertices="4">
+            <lines>
+                <segment n="1" x0="0" x1="28" y0="0" y1="0"/>
+                <segment n="2" x0="28" x1="28" y0="0" y1="12"/>
+                <segment n="3" x0="28" x1="0" y0="12" y1="12"/>
+                <segment n="4" x0="0" x1="0" y0="12" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>28</xMax>
+                <yMin>0</yMin>
+                <yMax>12</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon5" nVertices="4">
+            <lines>
+                <segment n="1" x0="0" x1="25" y0="0" y1="0"/>
+                <segment n="2" x0="25" x1="25" y0="0" y1="10"/>
+                <segment n="3" x0="25" x1="0" y0="10" y1="10"/>
+                <segment n="4" x0="0" x1="0" y0="10" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>25</xMax>
+                <yMin>0</yMin>
+                <yMax>10</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon6" nVertices="4">
+            <lines>
+                <segment n="1" x0="5" x1="30" y0="5" y1="5"/>
+                <segment n="2" x0="30" x1="30" y0="5" y1="15"/>
+                <segment n="3" x0="30" x1="5" y0="15" y1="15"/>
+                <segment n="4" x0="5" x1="5" y0="15" y1="5"/>
+                <xMin>5</xMin>
+                <xMax>30</xMax>
+                <yMin>5</yMin>
+                <yMax>15</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon7" nVertices="4">
+            <lines>
+                <segment n="1" x0="2" x1="28" y0="0" y1="0"/>
+                <segment n="2" x0="28" x1="28" y0="0" y1="12"/>
+                <segment n="3" x0="28" x1="2" y0="12" y1="12"/>
+                <segment n="4" x0="2" x1="2" y0="12" y1="0"/>
+                <xMin>2</xMin>
+                <xMax>28</xMax>
+                <yMin>0</yMin>
+                <yMax>12</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon8" nVertices="4">
+            <lines>
+                <segment n="1" x0="2" x1="28" y0="3" y1="3"/>
+                <segment n="2" x0="28" x1="28" y0="3" y1="15"/>
+                <segment n="3" x0="28" x1="2" y0="15" y1="15"/>
+                <segment n="4" x0="2" x1="2" y0="15" y1="3"/>
+                <xMin>2</xMin>
+                <xMax>28</xMax>
+                <yMin>3</yMin>
+                <yMax>15</yMax>
+            </lines>
+        </polygon>
+        <polygon id="ifpPolygon9" nVertices="4">
+            <lines>
+                <segment n="1" x0="0" x1="28" y0="0" y1="0"/>
+                <segment n="2" x0="28" x1="28" y0="0" y1="13"/>
+                <segment n="3" x0="28" x1="0" y0="13" y1="13"/>
+                <segment n="4" x0="0" x1="0" y0="13" y1="0"/>
+                <xMin>0</xMin>
+                <xMax>28</xMax>
+                <yMin>0</yMin>
+                <yMax>13</yMax>
+            </lines>
+        </polygon>
+    </polygons>
+    <nfps>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon0"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon1"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon2"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon3"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon4"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon5"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon6"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon7"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon8"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon9"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon10"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon11"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon12"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon13"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon14"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon15"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon16"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon17"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon18"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon19"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon20"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon21"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon22"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon23"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon24"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon25"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon26"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon27"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon28"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon29"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon30"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon31"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon32"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon33"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon34"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon35"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon36"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon37"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon38"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon39"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon40"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon41"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon42"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon43"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon44"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon45"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon46"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon47"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon48"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon49"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon50"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon51"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon52"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon53"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon54"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon55"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon56"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon57"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon58"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon59"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon60"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon61"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon62"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon63"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon64"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon65"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon66"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon67"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon68"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon69"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon70"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon71"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon72"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon73"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon74"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon75"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon76"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon77"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon78"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon79"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon80"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon81"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon82"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon83"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon84"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon85"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon86"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon87"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon88"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon89"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon90"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon91"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon92"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon93"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon94"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon95"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon96"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon97"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon98"/>
+        </nfp>
+        <nfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="nfpPolygon99"/>
+        </nfp>
+    </nfps>
+    <ifps>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon0"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon1"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon2"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon3"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon4"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon5"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon6"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon7"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon8"/>
+        </ifp>
+        <ifp>
+            <staticPolygon angle="0" idPolygon="polygon0" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon idPolygon="ifpPolygon9"/>
+        </ifp>
+    </ifps>
+    <raster>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon0.png" scale="100" x0="399" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon1.png" scale="100" x0="299" y0="599"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon2.png" scale="100" x0="99" y0="99"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon3.png" scale="100" x0="299" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon4.png" scale="100" x0="199" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon5.png" scale="100" x0="499" y0="599"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon6.png" scale="100" x0="0" y0="99"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon7.png" scale="100" x0="199" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon8.png" scale="100" x0="199" y0="99"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon9.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon10.png" scale="100" x0="499" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon11.png" scale="100" x0="399" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon12.png" scale="100" x0="199" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon13.png" scale="100" x0="399" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon14.png" scale="100" x0="299" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon15.png" scale="100" x0="599" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon16.png" scale="100" x0="99" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon17.png" scale="100" x0="299" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon18.png" scale="100" x0="299" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon19.png" scale="100" x0="299" y0="199"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon20.png" scale="100" x0="699" y0="899"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon21.png" scale="100" x0="599" y0="999"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon22.png" scale="100" x0="399" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon23.png" scale="100" x0="599" y0="899"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon24.png" scale="100" x0="499" y0="799"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon25.png" scale="100" x0="799" y0="999"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon26.png" scale="100" x0="299" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon27.png" scale="100" x0="499" y0="799"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon28.png" scale="100" x0="499" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon29.png" scale="100" x0="499" y0="699"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon30.png" scale="100" x0="499" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon31.png" scale="100" x0="399" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon32.png" scale="100" x0="199" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon33.png" scale="100" x0="399" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon34.png" scale="100" x0="299" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon35.png" scale="100" x0="599" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon36.png" scale="100" x0="99" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon37.png" scale="100" x0="299" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon38.png" scale="100" x0="299" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon39.png" scale="100" x0="299" y0="199"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon40.png" scale="100" x0="399" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon41.png" scale="100" x0="299" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon42.png" scale="100" x0="99" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon43.png" scale="100" x0="299" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon44.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon45.png" scale="100" x0="499" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon46.png" scale="100" x0="0" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon47.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon48.png" scale="100" x0="199" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon49.png" scale="100" x0="199" y0="199"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon50.png" scale="100" x0="399" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon51.png" scale="100" x0="299" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon52.png" scale="100" x0="99" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon53.png" scale="100" x0="299" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon54.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon55.png" scale="100" x0="499" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon56.png" scale="100" x0="0" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon57.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon58.png" scale="100" x0="199" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon59.png" scale="100" x0="199" y0="199"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon60.png" scale="100" x0="899" y0="899"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon61.png" scale="100" x0="799" y0="999"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon62.png" scale="100" x0="599" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon63.png" scale="100" x0="799" y0="899"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon64.png" scale="100" x0="699" y0="799"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon65.png" scale="100" x0="999" y0="999"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon66.png" scale="100" x0="499" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon67.png" scale="100" x0="699" y0="799"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon68.png" scale="100" x0="699" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon69.png" scale="100" x0="699" y0="699"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon70.png" scale="100" x0="599" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon71.png" scale="100" x0="499" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon72.png" scale="100" x0="299" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon73.png" scale="100" x0="499" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon74.png" scale="100" x0="399" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon75.png" scale="100" x0="699" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon76.png" scale="100" x0="199" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon77.png" scale="100" x0="399" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon78.png" scale="100" x0="399" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon79.png" scale="100" x0="399" y0="199"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon80.png" scale="100" x0="599" y0="699"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon81.png" scale="100" x0="499" y0="799"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon82.png" scale="100" x0="299" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon83.png" scale="100" x0="499" y0="699"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon84.png" scale="100" x0="399" y0="599"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon85.png" scale="100" x0="699" y0="799"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon86.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon87.png" scale="100" x0="399" y0="599"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon88.png" scale="100" x0="399" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon89.png" scale="100" x0="399" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon1" mirror="none"/>
+            <resultingPolygon path="nfpPolygon90.png" scale="100" x0="399" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon91.png" scale="100" x0="299" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon2" mirror="none"/>
+            <resultingPolygon path="nfpPolygon92.png" scale="100" x0="99" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon3" mirror="none"/>
+            <resultingPolygon path="nfpPolygon93.png" scale="100" x0="299" y0="399"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon4" mirror="none"/>
+            <resultingPolygon path="nfpPolygon94.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon95.png" scale="100" x0="499" y0="499"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon5" mirror="none"/>
+            <resultingPolygon path="nfpPolygon96.png" scale="100" x0="0" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon97.png" scale="100" x0="199" y0="299"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="180" idPolygon="polygon6" mirror="none"/>
+            <resultingPolygon path="nfpPolygon98.png" scale="100" x0="199" y0="0"/>
+        </rnfp>
+        <rnfp>
+            <staticPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <orbitingPolygon angle="0" idPolygon="polygon7" mirror="none"/>
+            <resultingPolygon path="nfpPolygon99.png" scale="100" x0="199" y0="199"/>
+        </rnfp>
+    </raster>
+</nesting>

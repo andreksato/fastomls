@@ -1,0 +1,5 @@
+OUTPUT=trousers.xml
+NFP-SCALE=1000
+RASTER-SCALE=1
+NOOVERLAP=1
+HEADER-FILE=trousers.hml
