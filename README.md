@@ -35,3 +35,7 @@ The rectpacking options are: `square` (for the FOMLS|SqPP), `random` (for the ra
 If you have any ideas, just open an issue and tell me what you think.
 
 If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+
+## License
+
+This project is licensed under the GNU GPLv3 License.
