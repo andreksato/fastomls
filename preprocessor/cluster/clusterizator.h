@@ -3,16 +3,19 @@
 
 #include "packingproblem.h"
 
-namespace CLUSTERING {
+namespace CLUSTERING
+{
 
-	struct Cluster {
+	struct Cluster
+	{
 		Cluster(std::shared_ptr<RASTERPACKING::RasterNoFitPolygon> _noFitPolygon, QPointF _orbitingPos, qreal _clusterValue) : noFitPolygon(_noFitPolygon), orbitingPos(_orbitingPos), clusterValue(_clusterValue) {}
 		std::shared_ptr<RASTERPACKING::RasterNoFitPolygon> noFitPolygon;
 		QPointF orbitingPos;
 		qreal clusterValue;
 	};
 
-	class Clusterizator {
+	class Clusterizator
+	{
 	public:
 		Clusterizator(RASTERPACKING::PackingProblem *_problem);
 		Clusterizator(RASTERPACKING::PackingProblem *_problem, qreal compressW, qreal intersectW, qreal widthW);
@@ -31,13 +34,14 @@ namespace CLUSTERING {
 		void printCluster(QString fileName, std::shared_ptr<RASTERPACKING::RasterNoFitPolygon> noFitPolygon, QList<QPointF> &displacements);
 		qreal getClusterFunction(RASTERPACKING::Polygon &polygon1, RASTERPACKING::Polygon &polygon2, QPointF displacement);
 		int checkValidClustering(QList<Cluster> &minClusters, Cluster &candidateCluster);
-		bool Clusterizator::checkValidClustering(QList<Cluster> &clusterList);
+		bool checkValidClustering(QList<Cluster> &clusterList);
 		void insertNewCluster(QList<Cluster> &minClusters, Cluster &candidateCluster, int numClusters);
 		RASTERPACKING::PackingProblem *problem;
 		qreal containerWidth, containerHeight;
 		qreal weight_compression, weight_intersection, weight_width;
 
-		class SimplifiedPuzzleProblem {
+		class SimplifiedPuzzleProblem
+		{
 		public:
 			SimplifiedPuzzleProblem(QString fileName);
 			void save(QString fileName);
