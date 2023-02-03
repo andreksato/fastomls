@@ -499,6 +499,16 @@ __global__ void propagation4bKernel(int * dev_P, int * dev_P2, int N, int M, int
 //cudaError_t transform( int * S, float * D, int N, int M);
 
 cudaError_t transform(int * S, float * D, int N, int M){
+	//dim3 dimBlock1(256, ceil(N/256.0), 1);
+	//dim3 dimBlock2(256, ceil(M/256.0), 1);
+	//dim3 dimGrid(1, 1, 1);
+	dim3 dimBlock(1024, 1, 1);
+	dim3 dimGrid1(ceil(N/1024.0));
+	dim3 dimGrid2(ceil(M/1024.0));
+	dim3 dimBlock3(ceil(M/256.0), ceil(N/256.0), 1);
+	dim3 dimGrid3(256, 256, 1);
+	float milliseconds = 0;
+
 	cudaError_t cudaStatus;
 
 	cudaEvent_t start, stop;
@@ -543,15 +553,6 @@ cudaError_t transform(int * S, float * D, int N, int M){
         fprintf(stderr, "cudaMemcpy HtD failed!");
         goto Error;
     }
-
-	//dim3 dimBlock1(256, ceil(N/256.0), 1);
-	//dim3 dimBlock2(256, ceil(M/256.0), 1);
-	//dim3 dimGrid(1, 1, 1);
-	dim3 dimBlock(1024, 1, 1);
-	dim3 dimGrid1(ceil(N/1024.0));
-	dim3 dimGrid2(ceil(M/1024.0));
-	dim3 dimBlock3(ceil(M/256.0), ceil(N/256.0), 1);
-	dim3 dimGrid3(256, 256, 1);
 
 	cudaEventRecord(start, 0);
 
@@ -625,7 +626,7 @@ cudaError_t transform(int * S, float * D, int N, int M){
     }
 
 	cudaEventSynchronize(stop);
-	float milliseconds = 0;
+	
 	cudaEventElapsedTime(&milliseconds, start, stop);
 //    printf("Execution Time: %f ms\n", milliseconds);
 	cudaEventDestroy(start);
